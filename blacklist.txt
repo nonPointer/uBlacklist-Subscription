@@ -10,6 +10,7 @@
 *://*.aptengli.com/*
 *://*.aqmdjx.com/*
 *://*.bbsah.com/*
+*://*.cjavapy.com/*
 *://*.cn.com/*
 *://*.codeday.me/*
 *://*.codenong.com/*
@@ -48,6 +49,7 @@
 *://*.pai-hang-bang.com/*
 *://*.panjk.com/*
 *://*.piqiuda.com/*
+*://*.py.cn/*
 *://*.qfjhb.cn/*
 *://*.qingdaosailing.com/*
 *://*.qu-qu.net/*
@@ -62,6 +64,7 @@
 *://*.sync-computers.com/*
 *://*.systemcity.cn/*
 *://*.taishengworld.com/*
+*://*.tomzx.com/*
 *://*.tumlls.xyz/*
 *://*.tysp.org/*
 *://*.uk.com/*
@@ -80,6 +83,7 @@
 *://*.xuesw.net/*
 *://*.xzlbjg.com/*
 *://*.yao51.com/*
+*://*.yisu.com/*
 *://*.youduoxi.com/*
 *://*.zakcret.xyz/*
 *://*.zglangying.com/*
@@ -349,6 +353,7 @@
 *://www.hotessay.net/*
 *://www.hq396.com/*
 *://www.hszw.org/*
+*://www.huaweicloud.com/articles/*
 *://www.hui-chao.com/*
 *://www.i5seo.com/*
 *://www.ihantian.com/*
@@ -364,6 +369,7 @@
 *://www.jkmlyshs.com/*
 *://www.ku3101.net/*
 *://www.kutu66.com/*
+*://www.lagou.com/lgeduarticle/*
 *://www.lansingip.com/*
 *://www.lanzhouyangsheng.com/*
 *://www.lanzhouzaixian.cn/*
@@ -458,6 +464,7 @@
 *://www.yunpanjingling.com/*
 *://www.zgxnjc.com/*
 *://www.zhetiaohe.com/*
+*://www.zhihu.com/*
 *://www.zhipanyou.com/*
 *://www.zhuici.net/*
 *://www.zhuzhupan.com/*
