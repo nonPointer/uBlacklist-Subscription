@@ -263,14 +263,17 @@
 *://www.3li.cc/*
 *://www.4561234.com/*
 *://www.511477.com/*
+*://www.52book.me/*
 *://www.54jqr.com/*
 *://www.5577.com/*
 *://www.565k.com/*
 *://www.5dir.cn/*
 *://www.6tuba.com/*
 *://www.7711182.com/*
+*://www.7sebook.com/*
 *://www.912688.com/*
 *://www.92aliyun.com/*
+*://www.9999ktv.com/*
 *://www.ab2s.com/*
 *://www.academicsaviour.com/*
 *://www.admin5.org/*
@@ -288,6 +291,7 @@
 *://www.bbsmax.com/*
 *://www.bdqxgw.com/*
 *://www.be55.net/*
+*://www.bestebookdownload.com/*
 *://www.bifengo.com/*
 *://www.bobofun.com/*
 *://www.bollingercanyon.com/*
@@ -348,6 +352,7 @@
 *://www.hui-chao.com/*
 *://www.i5seo.com/*
 *://www.ihantian.com/*
+*://www.il-shop.cn/*
 *://www.illitpress.com/*
 *://www.it-swarm.dev/*
 *://www.iteye.com/*
@@ -369,6 +374,7 @@
 *://www.lxws.net/*
 *://www.macaodaily.com/*
 *://www.miliol.org/*
+*://www.mlook.mobi/*
 *://www.moflier.com/*
 *://www.moneytlk.com/*
 *://www.movervip.com/*
@@ -415,6 +421,7 @@
 *://www.sxwshm.com/*
 *://www.szyxmy.com/*
 *://www.taobao.com/*
+*://www.taoshudang.com/*
 *://www.tastones.com/*
 *://www.teipy.com/*
 *://www.thinbug.com/*
@@ -451,7 +458,6 @@
 *://www.yunpanjingling.com/*
 *://www.zgxnjc.com/*
 *://www.zhetiaohe.com/*
-*://www.zhihu.com/*
 *://www.zhipanyou.com/*
 *://www.zhuici.net/*
 *://www.zhuzhupan.com/*
@@ -476,4 +482,4 @@
 /.*\/.*\?(?:s|so)=.*/
 /.*\/so\.php/
 /.*\:\/\/www\..*?\.com\/showinfo\-\d+-\d+-\d+\.html/
-/m\.[\w]{5,6}\.[\w]{6,7}\.(?:site|vip).*/*://www.9999ktv.com/*
+/m\.[\w]{5,6}\.[\w]{6,7}\.(?:site|vip).*/
