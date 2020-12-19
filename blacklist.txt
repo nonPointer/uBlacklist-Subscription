@@ -14,7 +14,9 @@
 *://*.cn.com/*
 *://*.codeday.me/*
 *://*.codenong.com/*
+*://*.compozi.com/*
 *://*.da-quan.net/*
+*://*.dacongyun.com/*
 *://*.dkfp88.cn/*
 *://*.dovov.com/*
 *://*.eue5xbp.site/*
@@ -23,9 +25,11 @@
 *://*.geren-jianli.org/*
 *://*.haoxyx.com/*
 *://*.helplib.com/*
+*://*.helplib.com/**://*.cn.com/*
 *://*.hfflvfc.site/*
 *://*.hnfangkeyi.com/*
 *://*.hnfyzx.com/*
+*://*.howtoip.com/*
 *://*.hzhaochengji.com/*
 *://*.iizhao.com/*
 *://*.itranslater.com/*
@@ -44,6 +48,7 @@
 *://*.lovfp.com/*
 *://*.mfwf.cn.com/*
 *://*.mop.com/*
+*://*.mos86.com/*
 *://*.oomake.com/*
 *://*.outofmemory.cn/*
 *://*.pai-hang-bang.com/*
@@ -64,7 +69,9 @@
 *://*.sync-computers.com/*
 *://*.systemcity.cn/*
 *://*.taishengworld.com/*
+*://*.techdevian.com/*
 *://*.tomzx.com/*
+*://*.trload.com/*
 *://*.tumlls.xyz/*
 *://*.tysp.org/*
 *://*.uk.com/*
@@ -297,6 +304,7 @@
 *://www.be55.net/*
 *://www.bestebookdownload.com/*
 *://www.bifengo.com/*
+*://www.bitedie.com/*
 *://www.bobofun.com/*
 *://www.bollingercanyon.com/*
 *://www.bunian.cn/*
@@ -311,6 +319,7 @@
 *://www.cmuswe.com/*
 *://www.cocoachina.com/*
 *://www.coder.work/*
+*://www.couponbirds.com/*
 *://www.crifan.com/*
 *://www.csdn.net/gather_*
 *://www.ctolib.com/*
@@ -350,6 +359,7 @@
 *://www.histrend.hk/*
 *://www.hiufriend.com/*
 *://www.hotbak.net/*
+*://www.hotbgm.com/*
 *://www.hotessay.net/*
 *://www.hq396.com/*
 *://www.hszw.org/*
@@ -381,6 +391,7 @@
 *://www.macaodaily.com/*
 *://www.miliol.org/*
 *://www.mlook.mobi/*
+*://www.mofish.work/*
 *://www.moflier.com/*
 *://www.moneytlk.com/*
 *://www.movervip.com/*
@@ -389,6 +400,7 @@
 *://www.njqg.net/*
 *://www.njsz99.com/*
 *://www.nxhh.net/*
+*://www.offers.com/*
 *://www.ojit.com/*
 *://www.ok168198.com/*
 *://www.oneho.cn/*
@@ -414,6 +426,7 @@
 *://www.riji365.org/*
 *://www.runsem.com/*
 *://www.ruten.com.tw/*
+*://www.sayweee.com/*
 *://www.sblunwen.com/*
 *://www.shbjbwx.com/*
 *://www.shoudian.org/*
@@ -422,6 +435,7 @@
 *://www.simpletense.com/*
 *://www.simpletense.org/*
 *://www.sldfc.cn/*
+*://www.sociablelabs.com/*
 *://www.stacknoob.com/*
 *://www.suning.com/*
 *://www.sxwshm.com/*
@@ -441,6 +455,7 @@
 *://www.usaqi.com/*
 *://www.uwenku.com/*
 *://www.vavab.net/*
+*://www.vpsmr.com/*
 *://www.waxyz.cn/*
 *://www.webplus.org.cn/*
 *://www.weiyoou8.com/*
