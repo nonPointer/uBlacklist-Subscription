@@ -18,6 +18,7 @@
 *://*.codenong.com/*
 *://*.compozi.com/*
 *://*.csolmy.com/*
+*://*.cundang.cc/*
 *://*.da-quan.net/*
 *://*.dacongyun.com/*
 *://*.dkfp88.cn/*
@@ -30,7 +31,6 @@
 *://*.geren-jianli.org/*
 *://*.haoxyx.com/*
 *://*.helplib.com/*
-*://*.helplib.com/**://*.cn.com/*
 *://*.hfflvfc.site/*
 *://*.hnfangkeyi.com/*
 *://*.hnfyzx.com/*
@@ -111,6 +111,7 @@
 *://0w9.harpnetworkinc.com/*
 *://0xzx.com/*
 *://170068.com/*
+*://1cm8858.com/*
 *://252yy.net/*
 *://26ch.com/*
 *://360nas.com/*
@@ -148,7 +149,6 @@
 *://checkcaller.cn/*
 *://chinese.alibaba.com/*
 *://cloud.tencent.com/developer/article/*
-*://cloud.tencent.com/developer/ask*
 *://cloud.tencent.com/developer/ask/*
 *://cloud.tencent.com/developer/information/*
 *://cn.aliyun.com/*
@@ -164,6 +164,7 @@
 *://down.znds.com/*
 *://download.csdn.net/*
 *://dq.tieba.com/*
+*://eclyq.co/*
 *://ecshweb.pchome.com.tw/*
 *://ee.ofweek.com/*
 *://essaymin.com/*
@@ -183,6 +184,7 @@
 *://jsrc588.com/*
 *://jump2.bdimg.com/*
 *://k.sina.cn/*
+*://kantie.org/*
 *://kb.kutu66.com/*
 *://khyy88.com/*
 *://kj808.com/*
@@ -241,6 +243,7 @@
 *://shop.99114.com/*
 *://shop.pcpop.com/*
 *://shopee.tw/*
+*://slickdeals.net/*
 *://sodocumentation.net/*
 *://stackoom.com/*
 *://stackoverrun.com/*
@@ -261,6 +264,7 @@
 *://wd.znds.com/*
 *://wefan.baidu.com/*
 *://who-called-de.com/*
+*://windowsbulletin.com/*
 *://wntzx.cn/*
 *://world.taobao.com/*
 *://wpsousuo.cn/*
@@ -304,7 +308,9 @@
 *://www.aliyundjq.cn/*
 *://www.aliyunyh.com/*
 *://www.amcpp.com/*
+*://www.amzkd.cn/*
 *://www.anhuilife.com/*
+*://www.asmrqq.com/*
 *://www.bacaoo.com/*
 *://www.baidu.com/*
 *://www.baidu.com/sf/*
@@ -331,6 +337,7 @@
 *://www.cocoachina.com/*
 *://www.coder.work/*
 *://www.couponbirds.com/*
+*://www.cppcns.com/*
 *://www.crifan.com/*
 *://www.csdn.net/gather_*
 *://www.ctolib.com/*
@@ -412,6 +419,7 @@
 *://www.movervip.com/*
 *://www.mscto.com/*
 *://www.myoschain.com/*
+*://www.nanrenwy.com/*
 *://www.njqg.net/*
 *://www.njsz99.com/*
 *://www.nxhh.net/*
@@ -429,6 +437,7 @@
 *://www.pconline.com.cn/other_pic*
 *://www.pcpc.me/*
 *://www.phoenixups.com/*
+*://www.pianshen.com/*
 *://www.pnstudy.com/*
 *://www.price.com.hk/*
 *://www.ptkaishan.com/*
@@ -466,6 +475,7 @@
 *://www.tj-sysm.com/*
 *://www.tmall.com/*
 *://www.tongfengqu.com/*
+*://www.tpyyes.com/*
 *://www.trust1688.com/*
 *://www.twoeggz.com/*
 *://www.ukassignment.org/*
@@ -478,6 +488,7 @@
 *://www.webplus.org.cn/*
 *://www.weiyoou8.com/*
 *://www.wenxuecity.com/*
+*://www.win10xiazai.com/*
 *://www.witdroid.com/*
 *://www.wnt777.com/*
 *://www.wywb0818.com/*
@@ -495,9 +506,10 @@
 *://www.youzhanlu.com/*
 *://www.yqgmall.com/*
 *://www.yunpanjingling.com/*
+*://www.zalou.cn/*
 *://www.zgxnjc.com/*
+*://www.zhangshengrong.com/*
 *://www.zhetiaohe.com/*
-*://www.zhihu.com/*
 *://www.zhipanyou.com/*
 *://www.zhuici.net/*
 *://www.zhuzhupan.com/*
@@ -524,4 +536,3 @@
 /.*\/so\.php/
 /.*\:\/\/www\..*?\.com\/showinfo\-\d+-\d+-\d+\.html/
 /m\.[\w]{5,6}\.[\w]{6,7}\.(?:site|vip).*/
-@*://www.zhihu.com/*

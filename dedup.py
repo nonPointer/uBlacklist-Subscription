@@ -11,5 +11,4 @@ res = list(res)
 res.sort()
 for i in res:
     f.write(i)
-print("saved", len(res), "records")
 f.close()
