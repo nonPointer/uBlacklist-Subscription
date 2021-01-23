@@ -245,7 +245,9 @@
 *://qipai.coms.hk/*
 *://qwtcpt.com/*
 *://read01.com/*
+*://s.weibo.com/*
 *://sa.sogou.com/*
+*://sagecctv.com/*
 *://search.jd.com/*
 *://search.suning.com/*
 *://seo.maro6.com/*
@@ -303,6 +305,7 @@
 *://www.3li.cc/*
 *://www.4561234.com/*
 *://www.511477.com/*
+*://www.51dongshi.com/*
 *://www.52book.me/*
 *://www.54jqr.com/*
 *://www.5577.com/*
@@ -342,6 +345,7 @@
 *://www.bobofun.com/*
 *://www.bokcms.com/*
 *://www.bollingercanyon.com/*
+*://www.bugzj.com/*
 *://www.bunian.cn/*
 *://www.c2231.com/*
 *://www.caanet.org.cn/*
@@ -397,6 +401,7 @@
 *://www.gobabl.com/*
 *://www.guangbaobei.net/*
 *://www.habeiwaiyuxuexiao.com/*
+*://www.haoecn.com/*
 *://www.harngtong.url.tw/*
 *://www.hchygw.com/*
 *://www.hello.so/*
@@ -418,6 +423,7 @@
 *://www.iteye.com/*
 *://www.ixigua.com/*
 *://www.izhufu.net/*
+*://www.jaxno.com/*
 *://www.jc0359.com/*
 *://www.jd.com/*
 *://www.jinan110.com/*
@@ -425,6 +431,7 @@
 *://www.jiyifa.com/*
 *://www.jkmlyshs.com/*
 *://www.jmiaoyz106.com/*
+*://www.kakatongmeng.net/*
 *://www.ku3101.net/*
 *://www.kutu66.com/*
 *://www.lagou.com/lgeduarticle/*
@@ -440,6 +447,7 @@
 *://www.lunwentop.net/*
 *://www.lvbag1314.com/*
 *://www.lxws.net/*
+*://www.lzbxgmjj.com/*
 *://www.macaodaily.com/*
 *://www.miliol.org/*
 *://www.mlook.mobi/*
@@ -529,6 +537,7 @@
 *://www.wolonge.com/*
 *://www.wordlm.com/*
 *://www.wywb0818.com/*
+*://www.xddv.com/*
 *://www.xhsdzjys.com/*
 *://www.xia3.com/*
 *://www.xiaozhishi.net/*
