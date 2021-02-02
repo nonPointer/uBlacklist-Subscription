@@ -37,6 +37,8 @@
 *://*.hnfyzx.com/*
 *://*.howtoip.com/*
 *://*.hzhaochengji.com/*
+*://*.icp-bbs.com/*
+*://*.idc941.com/*
 *://*.iizhao.com/*
 *://*.itranslater.com/*
 *://*.itread01.com/*
@@ -72,6 +74,7 @@
 *://*.soft-vn.net/*
 *://*.soinside.com/*
 *://*.sqzlsy.cn/*
+*://*.swimmingcows.com/*
 *://*.sync-computers.com/*
 *://*.systemcity.cn/*
 *://*.taishengworld.com/*
@@ -94,6 +97,7 @@
 *://*.xieshesm.tw/*
 *://*.xj-dd.com/*
 *://*.xjhxx.com/*
+*://*.xn----8sbnnlfdiifnglmc.xn--p1ai/*
 *://*.xuesw.net/*
 *://*.xzlbjg.com/*
 *://*.yao51.com/*
@@ -172,6 +176,7 @@
 *://ecshweb.pchome.com.tw/*
 *://ee.ofweek.com/*
 *://essaymin.com/*
+*://feetwindyoung-5.live/*
 *://feishuang406.com/*
 *://fonnambar.info/*
 *://freetribe.me/*
@@ -181,6 +186,8 @@
 *://herexjabar.over-blog.com/*
 *://holy-smile.com/*
 *://homiemall.com/*
+*://huisuobbs.net/*
+*://hz-heng-li.com/*
 *://hzhcontrols.com/*
 *://iask.sina.com.cn/*
 *://ilvruan.com/*
@@ -200,6 +207,7 @@
 *://kuaibao.qq.com/*
 *://list.jd.com/*
 *://liuxue.xdf.cn/*
+*://loginy.co.uk/*
 *://looknews.cc/*
 *://lqkweb.com/*
 *://m.201347.uk.com/*
@@ -218,6 +226,7 @@
 *://m.qz40.com/*
 *://m.qzjlw.com.cn/*
 *://m.rufengso.net/*
+*://m.set.zoektips.com/*
 *://m.weibo.cn/*
 *://m.weimob.com/*
 *://m.wenda.so.com/*
@@ -232,6 +241,7 @@
 *://mlog.club/*
 *://mostud.com/*
 *://muzoic.org/*
+*://my.oschina.net/u/4394125/*
 *://mygiftlk.com/*
 *://n.znds.com/*
 *://news.sinabz.com/*
@@ -241,6 +251,7 @@
 *://product.pconline.com.cn/*
 *://product.yesky.com/*
 *://qastack.cn/*
+*://qayaboo.co/*
 *://qcsdn.com/*
 *://qipai.coms.hk/*
 *://qwtcpt.com/*
@@ -253,6 +264,7 @@
 *://seo.maro6.com/*
 *://sh.360kuai.com/*
 *://share.wukongwenda.cn/*
+*://shengqian001.com/*
 *://shenzhenxw.net/*
 *://shop.99114.com/*
 *://shop.pcpop.com/*
@@ -261,6 +273,8 @@
 *://sodocumentation.net/*
 *://stackoom.com/*
 *://stackoverrun.com/*
+*://stackscn.com/*
+*://tangshijianfei.com/*
 *://teranews.net/*
 *://teratas-movietv.over-blog.com/*
 *://thewikihow.com/*
@@ -283,6 +297,7 @@
 *://wntzx.cn/*
 *://world.taobao.com/*
 *://wpsousuo.cn/*
+*://www.0755qxhj.com/*
 *://www.07diy.com/*
 *://www.09vv.cn/*
 *://www.12y.org/*
@@ -323,6 +338,7 @@
 *://www.affloc.com/*
 *://www.aiskycn.com/*
 *://www.ajpsp.com/*
+*://www.alexandresoma.com/*
 *://www.aliyun.com/*
 *://www.aliyundjq.cn/*
 *://www.aliyunyh.com/*
@@ -354,11 +370,13 @@
 *://www.ccddzlq.com/*
 *://www.ccn688.com/*
 *://www.cctsuzhou.cn/*
+*://www.chamberjkt.com/*
 *://www.chepinnet.com/*
 *://www.chinavolcan.com/*
 *://www.chinawenwang.com/*
 *://www.cmuswe.com/*
 *://www.cocoachina.com/*
+*://www.codeleading.com/*
 *://www.coder.work/*
 *://www.cosxitong.cn/*
 *://www.couponbirds.com/*
@@ -385,6 +403,7 @@
 *://www.dzydieo.site/*
 *://www.essayzhidao.com/*
 *://www.etbot.net/*
+*://www.eviolinrepair.com/*
 *://www.exmlo.com/*
 *://www.fastchina.net/*
 *://www.fck688.com/*
@@ -395,16 +414,20 @@
 *://www.fxdsxy.com/*
 *://www.fxxz.com/*
 *://www.gdsdws.com/*
+*://www.geek-share.com/*
 *://www.getbackpacking365.com/*
 *://www.getit01.com/*
 *://www.gitmemory.com/*
 *://www.gobabl.com/*
+*://www.gongkongmro.com/*
 *://www.guangbaobei.net/*
+*://www.guzhifa.com/*
 *://www.habeiwaiyuxuexiao.com/*
 *://www.haoecn.com/*
 *://www.harngtong.url.tw/*
 *://www.hchygw.com/*
 *://www.hello.so/*
+*://www.helplib.cn/*
 *://www.histrend.hk/*
 *://www.hiufriend.com/*
 *://www.hotbak.net/*
@@ -431,6 +454,7 @@
 *://www.jiyifa.com/*
 *://www.jkmlyshs.com/*
 *://www.jmiaoyz106.com/*
+*://www.k-creat.com/*
 *://www.kakatongmeng.net/*
 *://www.ku3101.net/*
 *://www.kutu66.com/*
@@ -438,9 +462,12 @@
 *://www.lansingip.com/*
 *://www.lanzhouyangsheng.com/*
 *://www.lanzhouzaixian.cn/*
+*://www.ld12345.com/*
 *://www.lightspeedtrucking.com/*
 *://www.linjiaxiaohui.cn/*
+*://www.linuxboy.net/*
 *://www.linxia930.com/*
+*://www.linyuhui.net/*
 *://www.lngyy.com/*
 *://www.lowdownsires.com/*
 *://www.lunwenpress.com/*
@@ -449,6 +476,7 @@
 *://www.lxws.net/*
 *://www.lzbxgmjj.com/*
 *://www.macaodaily.com/*
+*://www.miaoshoulu.net/*
 *://www.miliol.org/*
 *://www.mlook.mobi/*
 *://www.mofish.work/*
@@ -456,6 +484,7 @@
 *://www.moneytlk.com/*
 *://www.movervip.com/*
 *://www.mscto.com/*
+*://www.mxj.com.cn/*
 *://www.myoschain.com/*
 *://www.nanrenwy.com/*
 *://www.njqg.net/*
@@ -479,6 +508,7 @@
 *://www.pnstudy.com/*
 *://www.price.com.hk/*
 *://www.ptkaishan.com/*
+*://www.q578.com/*
 *://www.qedev.com/*
 *://www.qingtingip.com/*
 *://www.qqtn.com/*
@@ -486,6 +516,7 @@
 *://www.quanmaimai.com/*
 *://www.quanmama.com/*
 *://www.qxqpw.net/*
+*://www.rayjcasting.com/*
 *://www.rghn.com.cn/*
 *://www.right.com.cn/FORUM/search.php?*
 *://www.riji365.org/*
@@ -497,6 +528,7 @@
 *://www.shbjbwx.com/*
 *://www.shoudian.org/*
 *://www.shuoshuokong.com/*
+*://www.shuzhiduo.com/*
 *://www.shxy888.com/*
 *://www.simpletense.com/*
 *://www.simpletense.org/*
@@ -523,6 +555,7 @@
 *://www.u9h.com/*
 *://www.ukassignment.org/*
 *://www.ukthesis.org/*
+*://www.uppercanadahealth.com/*
 *://www.usaqi.com/*
 *://www.uwenku.com/*
 *://www.vavab.net/*
