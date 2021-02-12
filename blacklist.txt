@@ -5,6 +5,7 @@
 *://*.361t.org/*
 *://*.3cwu.com/*
 *://*.51xuexiaoyi.com/*
+*://*.9idudu.com/*
 *://*.aalahty.cn/*
 *://*.ajhujiao.com/*
 *://*.androidcookie.com/*
@@ -22,6 +23,7 @@
 *://*.cundang.cc/*
 *://*.da-quan.net/*
 *://*.dacongyun.com/*
+*://*.dav01.com/*
 *://*.dkfp88.cn/*
 *://*.dovov.com/*
 *://*.eue5xbp.site/*
@@ -54,6 +56,7 @@
 *://*.lai18.com/*
 *://*.liwu.bi/*
 *://*.lovfp.com/*
+*://*.megavolt67.ru/*
 *://*.mfwf.cn.com/*
 *://*.mop.com/*
 *://*.mos86.com/*
@@ -103,6 +106,7 @@
 *://*.yao51.com/*
 *://*.yisu.com/*
 *://*.youduoxi.com/*
+*://*.yujiedh.xyz/*
 *://*.zakcret.xyz/*
 *://*.zglangying.com/*
 *://*/?s=*
@@ -144,6 +148,7 @@
 *://bbs.nga.cn/*
 *://bbs.wper.com/*
 *://bbs.zol.com.cn/*
+*://bebugless.com/*
 *://best.pconline.com.cn/*
 *://biggo.com.tw/*
 *://blog.csdn.net/holybin/*
@@ -193,6 +198,7 @@
 *://ilvruan.com/*
 *://ishiker.com/*
 *://item.jd.com/*
+*://itigic.com/*
 *://jinan110.com/*
 *://jsrc588.com/*
 *://jump2.bdimg.com/*
@@ -222,11 +228,13 @@
 *://m.jd.com/*
 *://m.jiasuba.com/*
 *://m.kan186.com/*
+*://m.kjw.cc/*
 *://m.quanmama.com/*
 *://m.qz40.com/*
 *://m.qzjlw.com.cn/*
 *://m.rufengso.net/*
 *://m.set.zoektips.com/*
+*://m.wandoujia.com/*
 *://m.weibo.cn/*
 *://m.weimob.com/*
 *://m.wenda.so.com/*
@@ -245,11 +253,13 @@
 *://mygiftlk.com/*
 *://n.znds.com/*
 *://news.sinabz.com/*
+*://news.tom.com/*
 *://news.znds.com/*
 *://product.3g.pconline.com.cn/*
 *://product.mxpkw.com/*
 *://product.pconline.com.cn/*
 *://product.yesky.com/*
+*://qa.1r1g.com/*
 *://qastack.cn/*
 *://qayaboo.co/*
 *://qcsdn.com/*
@@ -269,6 +279,7 @@
 *://shop.99114.com/*
 *://shop.pcpop.com/*
 *://shopee.tw/*
+*://sites.google.com/*
 *://slickdeals.net/*
 *://sodocumentation.net/*
 *://stackoom.com/*
@@ -346,10 +357,12 @@
 *://www.amzkd.cn/*
 *://www.anfensi.com/*
 *://www.anhuilife.com/*
+*://www.anxinapk.com/*
 *://www.asmrqq.com/*
 *://www.bacaoo.com/*
 *://www.baidu.com/*
 *://www.baidu.com/sf/*
+*://www.bairun0769.com/*
 *://www.baydue.com/*
 *://www.bbsmax.com/*
 *://www.bdqxgw.com/*
@@ -384,6 +397,7 @@
 *://www.crifan.com/*
 *://www.csdn.net/gather_*
 *://www.ctolib.com/*
+*://www.cuplayer.com/*
 *://www.dabbsports.com/*
 *://www.daihema.com/*
 *://www.dama123.com/*
@@ -401,6 +415,8 @@
 *://www.duanxinhongzha.com/*
 *://www.dute.me/*
 *://www.dzydieo.site/*
+*://www.eeq8.com/*
+*://www.enjing.com/*
 *://www.essayzhidao.com/*
 *://www.etbot.net/*
 *://www.eviolinrepair.com/*
@@ -454,6 +470,7 @@
 *://www.jiyifa.com/*
 *://www.jkmlyshs.com/*
 *://www.jmiaoyz106.com/*
+*://www.jsxbbyq.com/*
 *://www.k-creat.com/*
 *://www.kakatongmeng.net/*
 *://www.ku3101.net/*
@@ -541,6 +558,7 @@
 *://www.taobao.com/*
 *://www.taoshudang.com/*
 *://www.tastones.com/*
+*://www.techbang.com/*
 *://www.teipy.com/*
 *://www.thinbug.com/*
 *://www.tiandynasty.cn/*
@@ -551,6 +569,7 @@
 *://www.tongfengqu.com/*
 *://www.tpyyes.com/*
 *://www.trust1688.com/*
+*://www.twblogs.net/*
 *://www.twoeggz.com/*
 *://www.u9h.com/*
 *://www.ukassignment.org/*
@@ -559,6 +578,7 @@
 *://www.usaqi.com/*
 *://www.uwenku.com/*
 *://www.vavab.net/*
+*://www.vmall.com/*
 *://www.vpsmr.com/*
 *://www.waxyz.cn/*
 *://www.webplus.org.cn/*
@@ -573,6 +593,7 @@
 *://www.xddv.com/*
 *://www.xhsdzjys.com/*
 *://www.xia3.com/*
+*://www.xiaoheidiannao.com/*
 *://www.xiaozhishi.net/*
 *://www.xiexialai.com/*
 *://www.xinfuq.cn/*
@@ -586,6 +607,7 @@
 *://www.yiyult.com/*
 *://www.youzhanlu.com/*
 *://www.yqgmall.com/*
+*://www.yuanmacha.com/*
 *://www.yunpanjingling.com/*
 *://www.zalou.cn/*
 *://www.zgxnjc.com/*
