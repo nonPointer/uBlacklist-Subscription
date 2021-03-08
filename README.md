@@ -4,8 +4,6 @@
 
 它是一个可以屏蔽 Google 搜索结果中特定站点条目的 Chrome / Firefox 浏览器扩展。Google 自己开发的 Personal Blocklist 插件已经不可用且不再维护，此扩展可以作为其替代品。
 
-> :warning: **此规则会屏蔽 WAP 手机站以及购物网站（如京东）**
-
 > :warning: **此规则非常激进**，使用前请预览黑名单内容
 
 
