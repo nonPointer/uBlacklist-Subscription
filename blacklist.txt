@@ -15,6 +15,7 @@
 *://*.bbjkw.net/*
 *://*.bbsah.com/*
 *://*.cjavapy.com/*
+*://*.cmen.cc/*
 *://*.cn.com/*
 *://*.codebug.vip/*
 *://*.codeday.me/*
@@ -35,6 +36,8 @@
 *://*.gcyfd.shop/*
 *://*.geren-jianli.org/*
 *://*.haoxyx.com/*
+*://*.hellodemos.com/*
+*://*.helloworldkb.com/*
 *://*.helplib.com/*
 *://*.hfflvfc.site/*
 *://*.hnfangkeyi.com/*
@@ -46,6 +49,7 @@
 *://*.iizhao.com/*
 *://*.itranslater.com/*
 *://*.itread01.com/*
+*://*.javashuo.com/*
 *://*.jb51.net/*
 *://*.jdon.com/*
 *://*.jishuwen.com/*
@@ -151,9 +155,11 @@
 *://answer-id.com/*
 *://app.youfa.coms.hk/*
 *://artez.org.cn/*
+*://ask.csdn.net/*
 *://ask.seowhy.com/*
 *://ask.zol.com.cn/*
 *://auditioneasterhelm.com/*
+*://baby918gardeneffect.live/*
 *://baijiahao.baidu.com/*
 *://baike.baidu.com/tashuo/*
 *://bbs.csdn.net/*
@@ -197,6 +203,7 @@
 *://dq.tieba.com/*
 *://eclyq.co/*
 *://ecshweb.pchome.com.tw/*
+*://edu.51cto.com/*
 *://ee.ofweek.com/*
 *://essaymin.com/*
 *://feetwindyoung-5.live/*
@@ -236,6 +243,7 @@
 *://kknews.cc/*
 *://koubei.baidu.com/*
 *://kuaibao.qq.com/*
+*://libriblu.it/*
 *://list.jd.com/*
 *://liuxue.xdf.cn/*
 *://loginy.co.uk/*
@@ -554,6 +562,7 @@
 *://www.mofish.work/*
 *://www.moflier.com/*
 *://www.moneytlk.com/*
+*://www.mosaby.com/*
 *://www.movervip.com/*
 *://www.mscto.com/*
 *://www.mxj.com.cn/*
@@ -646,6 +655,7 @@
 *://www.webplus.org.cn/*
 *://www.weiyoou8.com/*
 *://www.wenxuecity.com/*
+*://www.west.cn/docs/*
 *://www.win10xiazai.com/*
 *://www.witdroid.com/*
 *://www.wnt777.com/*
@@ -675,6 +685,7 @@
 *://www.youzibook.cc/*
 *://www.yqgmall.com/*
 *://www.yuanmacha.com/*
+*://www.yuanshihuoguo.com/*
 *://www.yuedidai.com/*
 *://www.yunpanjingling.com/*
 *://www.zalou.cn/*
