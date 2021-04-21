@@ -31,6 +31,7 @@
 *://*.dav01.com/*
 *://*.dkfp88.cn/*
 *://*.dovov.com/*
+*://*.dtmao.cc/*
 *://*.eue5xbp.site/*
 *://*.fofa.so/*
 *://*.freejournal.info/*
@@ -43,6 +44,7 @@
 *://*.helloworldkb.com/*
 *://*.helplib.com/*
 *://*.hfflvfc.site/*
+*://*.hkk666.com/*
 *://*.hnfangkeyi.com/*
 *://*.hnfyzx.com/*
 *://*.howtoip.com/*
@@ -51,6 +53,7 @@
 *://*.idc941.com/*
 *://*.iizhao.com/*
 *://*.isdakar.org/*
+*://*.it.net.cn/*
 *://*.itranslater.com/*
 *://*.itread01.com/*
 *://*.javashuo.com/*
@@ -274,6 +277,7 @@
 *://m.fy35.com/*
 *://m.hljysbk.com/*
 *://m.iask.sina.com.cn/*
+*://m.imooc.com/*
 *://m.ishare.iask.sina.com.cn/*
 *://m.iyzhz.com/*
 *://m.jd.com/*
@@ -357,6 +361,7 @@
 *://videomediaseochannel.com/*
 *://villahermosahonduras.com/*
 *://vpsak.com/*
+*://wap.alounsse.com/*
 *://wap.mii-lab.com/*
 *://wap.yesky.com/*
 *://wd.znds.com/*
@@ -461,6 +466,7 @@
 *://www.chinavolcan.com/*
 *://www.chinawenwang.com/*
 *://www.cmuswe.com/*
+*://www.cnqlk.com/*
 *://www.cnshhbs.com/*
 *://www.cocoachina.com/*
 *://www.codeleading.com/*
@@ -643,6 +649,7 @@
 *://www.shoudian.org/*
 *://www.shuoshuokong.com/*
 *://www.shuzhiduo.com/*
+*://www.shxmtech.com/*
 *://www.shxy888.com/*
 *://www.simpletense.com/*
 *://www.simpletense.org/*
@@ -703,6 +710,7 @@
 *://www.xiexialai.com/*
 *://www.xinfuq.cn/*
 *://www.xinhexinli.com/*
+*://www.xitongcheng.com/*
 *://www.xpj665577.com/*
 *://www.xspdf.com/*
 *://www.xtfeed.cn/*
@@ -713,6 +721,7 @@
 *://www.yiper.org/*
 *://www.yiyisoft.com/*
 *://www.yiyult.com/*
+*://www.ylfjs.com/*
 *://www.ymei189.com/*
 *://www.youzhanlu.com/*
 *://www.youzibook.cc/*
