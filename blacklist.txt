@@ -16,6 +16,7 @@
 *://*.aqmdjx.com/*
 *://*.bbjkw.net/*
 *://*.bbsah.com/*
+*://*.buffalo-mn.org/*
 *://*.cjavapy.com/*
 *://*.cmen.cc/*
 *://*.cn.com/*
@@ -219,6 +220,7 @@
 *://down.znds.com/*
 *://download.csdn.net/*
 *://dq.tieba.com/*
+*://dvb56.com/*
 *://eclyq.co/*
 *://ecshweb.pchome.com.tw/*
 *://edu.51cto.com/*
@@ -271,6 +273,7 @@
 *://m.201347.uk.com/*
 *://m.3g.qqs9.com/*
 *://m.51dongshi.com/*
+*://m.9ji.com/*
 *://m.copyan.com/*
 *://m.daihema.com/*
 *://m.eoudu.com/*
@@ -300,8 +303,10 @@
 *://m.xing73.com/*
 *://m.yanghua.net/*
 *://m.yxdwj.com/*
+*://m.zcool.com.cn/*
 *://machbbs.com/*
 *://make.mk/*
+*://maokun.blog.csdn.net/*
 *://mingtwang.com/*
 *://mitosediesel.ro.to/*
 *://mlog.club/*
@@ -528,6 +533,7 @@
 *://www.guzhifa.com/*
 *://www.gygg9.com/*
 *://www.habeiwaiyuxuexiao.com/*
+*://www.hanlefang.net/*
 *://www.haoecn.com/*
 *://www.harngtong.url.tw/*
 *://www.hchygw.com/*
@@ -633,6 +639,7 @@
 *://www.quanmaimai.com/*
 *://www.quanmama.com/*
 *://www.qxqpw.net/*
+*://www.r41z.com/*
 *://www.rayjcasting.com/*
 *://www.rejoiceblog.com/*
 *://www.rghn.com.cn/*
@@ -656,6 +663,7 @@
 *://www.sldfc.cn/*
 *://www.sociablelabs.com/*
 *://www.sockvalley.com/*
+*://www.sohu.com/a/*
 *://www.sojson.com/blog/*
 *://www.stacknoob.com/*
 *://www.suning.com/*
@@ -750,6 +758,7 @@
 *://yageshu.com/*
 *://yq.aliyun.com/*
 *://yuming.qxbbs.org/*
+*://zbaen.com/*
 *://zh.wizcase.com/*
 *://zhidao.baidu.com/*
 *://zhidao.baidu.hk/*
