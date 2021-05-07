@@ -266,6 +266,7 @@
 *://kuaibao.qq.com/*
 *://libriblu.it/*
 *://list.jd.com/*
+*://list.suning.com/*
 *://liuxue.xdf.cn/*
 *://loginy.co.uk/*
 *://looknews.cc/*
@@ -294,6 +295,7 @@
 *://m.rufengso.net/*
 *://m.set.zoektips.com/*
 *://m.sina.com.hk/*
+*://m.suning.com/*
 *://m.wandoujia.com/*
 *://m.weibo.cn/*
 *://m.weimob.com/*
@@ -307,6 +309,7 @@
 *://machbbs.com/*
 *://make.mk/*
 *://maokun.blog.csdn.net/*
+*://mimeplay.top/*
 *://mingtwang.com/*
 *://mitosediesel.ro.to/*
 *://mlog.club/*
@@ -633,6 +636,7 @@
 *://www.ptkaishan.com/*
 *://www.q578.com/*
 *://www.qedev.com/*
+*://www.qianchusai.com/*
 *://www.qingtingip.com/*
 *://www.qqtn.com/*
 *://www.qtcamp.com/*
@@ -670,6 +674,7 @@
 *://www.sxwshm.com/*
 *://www.szyxmy.com/*
 *://www.taobao.com/*
+*://www.taobao.lc/*
 *://www.taoshudang.com/*
 *://www.tastones.com/*
 *://www.techbang.com/*
