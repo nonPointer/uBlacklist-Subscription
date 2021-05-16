@@ -20,6 +20,7 @@
 *://*.cjavapy.com/*
 *://*.cmen.cc/*
 *://*.cn.com/*
+*://*.cnpython.com/*
 *://*.cnvhair.com/*
 *://*.codebug.vip/*
 *://*.codeday.me/*
@@ -57,6 +58,7 @@
 *://*.it.net.cn/*
 *://*.itranslater.com/*
 *://*.itread01.com/*
+*://*.javaroad.cn/*
 *://*.javashuo.com/*
 *://*.jb51.net/*
 *://*.jdon.com/*
@@ -104,6 +106,7 @@
 *://*.systemcity.cn/*
 *://*.taishengworld.com/*
 *://*.techdevian.com/*
+*://*.tidewaterschool.org/*
 *://*.tipsandtricks.tech/*
 *://*.tomzx.com/*
 *://*.trload.com/*
@@ -356,6 +359,7 @@
 *://stackscn.com/*
 *://tangshijianfei.com/*
 *://teachrock.org/*
+*://teddit.ggc-project.de/*
 *://teranews.net/*
 *://teratas-movietv.over-blog.com/*
 *://thewikihow.com/*
