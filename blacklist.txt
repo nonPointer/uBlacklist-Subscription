@@ -90,6 +90,7 @@
 *://*.qingdaosailing.com/*
 *://*.qnid.cc/*
 *://*.qu-qu.net/*
+*://*.rtxmail.net/*
 *://*.rukomos.ru/*
 *://*.scpaean.com/*
 *://*.sdxinli.org/*
@@ -131,6 +132,7 @@
 *://*.xuesw.net/*
 *://*.xzlbjg.com/*
 *://*.yao51.com/*
+*://*.yijiayi88.com/*
 *://*.yisu.com/*
 *://*.youduoxi.com/*
 *://*.yujiedh.xyz/*
@@ -193,6 +195,7 @@
 *://biggo.com.tw/*
 *://blacksprocket.com/*
 *://blog.csdn.net/holybin/*
+*://blog.csdn.net/weixin_35909238/*
 *://bloomingtonventures.com/*
 *://brd2a.com/*
 *://brrmn.com/*
@@ -228,7 +231,9 @@
 *://ecshweb.pchome.com.tw/*
 *://edu.51cto.com/*
 *://ee.ofweek.com/*
+*://email.tenxunqq.net/*
 *://essaymin.com/*
+*://exmail-qq.cc/*
 *://feetwindyoung-5.live/*
 *://feishuang406.com/*
 *://flyzyblog.com/*
@@ -278,6 +283,7 @@
 *://m.3g.qqs9.com/*
 *://m.51dongshi.com/*
 *://m.9ji.com/*
+*://m.ccidnet.com/*
 *://m.copyan.com/*
 *://m.daihema.com/*
 *://m.eoudu.com/*
@@ -391,6 +397,7 @@
 *://www.17qufa.com/*
 *://www.1984w.com/*
 *://www.1itao.com/*
+*://www.21ic.com/*
 *://www.2265.com/*
 *://www.23cpc.com/*
 *://www.2616.com.cn/*
@@ -604,6 +611,8 @@
 *://www.lxws.net/*
 *://www.lzbxgmjj.com/*
 *://www.macaodaily.com/*
+*://www.mail-qq.com/*
+*://www.maill.com.cn/*
 *://www.miaoshoulu.net/*
 *://www.miliol.org/*
 *://www.mintwl.com/*
@@ -639,10 +648,13 @@
 *://www.price.com.hk/*
 *://www.ptkaishan.com/*
 *://www.q578.com/*
+*://www.qcnsw.com/*
 *://www.qedev.com/*
 *://www.qianchusai.com/*
 *://www.qingtingip.com/*
+*://www.qq366.cn/*
 *://www.qqtn.com/*
+*://www.qqxmail.com/*
 *://www.qtcamp.com/*
 *://www.quanmaimai.com/*
 *://www.quanmama.com/*
@@ -727,6 +739,7 @@
 *://www.xiexialai.com/*
 *://www.xinfuq.cn/*
 *://www.xinhexinli.com/*
+*://www.xinnet.com/xinzhi/*
 *://www.xitongcheng.com/*
 *://www.xpj665577.com/*
 *://www.xspdf.com/*
