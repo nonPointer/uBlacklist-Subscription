@@ -15,6 +15,9 @@
 *://*.aptengli.com/*
 *://*.aqmdjx.com/*
 *://*.bbjkw.net/*
+*://codingdict.com/*
+*://*.wikicell.org/*
+*://*.4meahc.com/*
 *://*.bbsah.com/*
 *://*.buffalo-mn.org/*
 *://*.cjavapy.com/*
