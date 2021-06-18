@@ -19,6 +19,12 @@
 *://*.bbjkw.net/*
 *://*.bbsah.com/*
 *://*.buffalo-mn.org/*
+*://wapiknow.baidu.com/*
+*://www.3gsu.com/*
+*://www.xsjphoto.com/*
+*://www.seoxiangzi.com/*
+*://*.todohealth.com/*
+*://stackovernet.xyz/*
 *://*.cjavapy.com/*
 *://*.cmen.cc/*
 *://*.cn.com/*
