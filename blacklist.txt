@@ -283,6 +283,7 @@
 *://koubei.baidu.com/*
 *://ksctec.com/*
 *://kuaibao.qq.com/*
+*://lhyd.top/*
 *://libriblu.it/*
 *://list.jd.com/*
 *://list.suning.com/*
@@ -391,6 +392,7 @@
 *://tp50.com/*
 *://tw.phonecardsoftware.com/*
 *://ub4.com/*
+*://ubuntuqa.com/*
 *://ukcarbulbs.com/*
 *://ultimaterctoys.com/*
 *://uqseo.com/*
@@ -499,7 +501,9 @@
 *://www.caanet.org.cn/*
 *://www.cambridgeesolchina.org/*
 *://www.cangningmucai.com/*
+*://www.captainbed.net/*
 *://www.carousell.com.hk/*
+*://www.cbedai.net/*
 *://www.ccddzlq.com/*
 *://www.ccn688.com/*
 *://www.cctsuzhou.cn/*
@@ -840,4 +844,5 @@
 /.*\/.*\?(?:s|so)=.*/
 /.*\/so\.php/
 /.*\:\/\/www\..*?\.com\/showinfo\-\d+-\d+-\d+\.html/
+/^https?\:\/\/.*?\/list\?q=[a-zA-Z%0-9]*$/
 /m\.[\w]{5,6}\.[\w]{6,7}\.(?:site|vip).*/
