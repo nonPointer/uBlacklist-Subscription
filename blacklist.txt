@@ -59,7 +59,9 @@
 *://*.barber-klipp.com/*
 *://*.bbjkw.net/*
 *://*.bbsah.com/*
+*://*.beckers-willems.nl/*
 *://*.beeeup.com/*
+*://*.biobu.it/*
 *://*.bit86.cn/*
 *://*.bookresource.net/*
 *://*.brainandspineschool.com/*
@@ -74,6 +76,7 @@
 *://*.chcpd.com/*
 *://*.china.cn/*
 *://*.china2uk.com/*
+*://*.chiphell.com/*
 *://*.cjavapy.com/*
 *://*.cjkfd.top/*
 *://*.clubhouse-club.site/*
@@ -114,10 +117,12 @@
 *://*.fhsas.com/*
 *://*.fofa.so/*
 *://*.fonelab.com/*
+*://*.food-week.ru/*
 *://*.fpppw.com/*
 *://*.framedfm.net/*
 *://*.freax.be/*
 *://*.frederique-davezac.fr/*
+*://*.freejobalerts24.com/*
 *://*.freejournal.info/*
 *://*.fukuyama-okoku.com/*
 *://*.fuwuqizhijia.com/*
@@ -131,6 +136,7 @@
 *://*.gome.com.cn/*
 *://*.gov-civil-leiria.pt/*
 *://*.guangdiu.com/*
+*://*.guoguofen.com/*
 *://*.haoshangbang.net/*
 *://*.haoxyx.com/*
 *://*.hbs163.com/*
@@ -198,6 +204,7 @@
 *://*.lai18.com/*
 *://*.lehuotuan.com/*
 *://*.lete.com/kdwenda/*
+*://*.liangliangmama.com/blogs/news/*
 *://*.libhunt.com/*
 *://*.licenseapps.com/*
 *://*.liliang.info/*
@@ -242,11 +249,15 @@
 *://*.picclick.co.uk/*
 *://*.pinkypink.org/*
 *://*.piqiuda.com/*
+*://*.poldomu.pl/*
+*://*.poloniabeaulieu.fr/*
 *://*.pp22.xyz/*
+*://*.prestigelublin.eu/*
 *://*.psjgs.com.cn/*
 *://*.py.cn/*
 *://*.pyn9.com/*
 *://*.qciss.net/*
+*://*.qdcypf.com/*
 *://*.qfjhb.cn/*
 *://*.qingdaosailing.com/*
 *://*.qingyunl.com/*
@@ -261,6 +272,7 @@
 *://*.rtxmail.net/*
 *://*.rukomos.ru/*
 *://*.rxadderall.com/*
+*://*.sa123.cc/*
 *://*.scpaean.com/*
 *://*.sdxinli.org/*
 *://*.seafastcenter.com/*
