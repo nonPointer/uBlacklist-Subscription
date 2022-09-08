@@ -63,6 +63,7 @@
 *://*.beeeup.com/*
 *://*.biobu.it/*
 *://*.bit86.cn/*
+*://*.blogsbodasdeisabel.com/*
 *://*.bookresource.net/*
 *://*.brainandspineschool.com/*
 *://*.budanghuishi.com/*
@@ -89,6 +90,7 @@
 *://*.codeleading.com/*
 *://*.codenong.com/*
 *://*.codeprj.com/*
+*://*.comparitech.com/*
 *://*.compozi.com/*
 *://*.crackorg.com/*
 *://*.csdn.net/weixin_26722031/article/*
@@ -119,6 +121,7 @@
 *://*.fonelab.com/*
 *://*.food-week.ru/*
 *://*.fpppw.com/*
+*://*.fr/*Q%E5%BE%AE%E5%90%8C%E5%8F%B7*
 *://*.framedfm.net/*
 *://*.freax.be/*
 *://*.frederique-davezac.fr/*
@@ -232,12 +235,14 @@
 *://*.msfxt.com/*
 *://*.my-pmu.com/*
 *://*.mymac.info/*
+*://*.nasge.com/*
 *://*.nhm.org/*
 *://*.njfpled.com/*
 *://*.njloft.com/*
 *://*.nmxjp.com/*
 *://*.nordvpnblog.com/*
 *://*.nuomiphp.com/*
+*://*.ofweek.com/*
 *://*.oomake.com/*
 *://*.ourplay.net/ask/*
 *://*.ourplay.net/qazt/*
@@ -249,6 +254,7 @@
 *://*.picclick.co.uk/*
 *://*.pinkypink.org/*
 *://*.piqiuda.com/*
+*://*.pixelprivacy.com/*
 *://*.poldomu.pl/*
 *://*.poloniabeaulieu.fr/*
 *://*.pp22.xyz/*
@@ -259,6 +265,7 @@
 *://*.qciss.net/*
 *://*.qdcypf.com/*
 *://*.qfjhb.cn/*
+*://*.qiangwaikan.com/*
 *://*.qingdaosailing.com/*
 *://*.qingyunl.com/*
 *://*.qnid.cc/*
@@ -277,6 +284,7 @@
 *://*.sdxinli.org/*
 *://*.seafastcenter.com/*
 *://*.sefyc.com/*
+*://*.shejiben.com/*
 *://*.shenmedaquan.com/*
 *://*.shluqu.cn/*
 *://*.shtaxi.com/*
@@ -343,8 +351,11 @@
 *://*.voidcc.com/*
 *://*.voidcn.com/*
 *://*.volvootofinans.com/*
+*://*.vpn5best.com/*
 *://*.vpnmentor.com/*
 *://*.vsbuys.com/*
+*://*.wallmama.com/*
+*://*.wallzhihu.com/*
 *://*.waymanamechurch.org/*
 *://*.wbolt.com/*
 *://*.wdfxw.net/*
@@ -1235,9 +1246,11 @@
 /^https?\:\/\/.*?\/list\?q=[a-zA-Z%0-9]*$/
 /m\.[\w]{5,6}\.[\w]{6,7}\.(?:site|vip).*/
 @*://*.tspweb.com/*
+title/.*Q微同号/
 title/.*\s-\s.*知识网/
 title/.*\s-\s小.*百科网/
 title/.*_一键访问国外网站/
 title/.*_点击一次就可以出国/
+title/.*q微同号.*/
 title/.*【一键访问国外网站】/
 title/.*【点击一次就可以出国】/
