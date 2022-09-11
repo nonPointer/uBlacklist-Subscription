@@ -8,6 +8,7 @@
 *://*.21food.cn/*
 *://*.22352.xyz/*
 *://*.2742olivewood.com/*
+*://*.2maka.com/*
 *://*.2qun.net/*
 *://*.300m-team.com/*
 *://*.33376.xyz/*
@@ -34,6 +35,7 @@
 *://*.97hs.com/*
 *://*.9idudu.com/*
 *://*.aalahty.cn/*
+*://*.actualidadiphone.com/*
 *://*.aesml.com/*
 *://*.aiseesoft.com/*
 *://*.aiznh.com/*
@@ -107,6 +109,7 @@
 *://*.ddosi.org/*
 *://*.dedeapps.com/*
 *://*.dkfp88.cn/*
+*://*.dongchedi.com/tag/*
 *://*.dovov.com/*
 *://*.dtmao.cc/*
 *://*.du-mon.com/*
@@ -158,6 +161,7 @@
 *://*.hostphb.com/*
 *://*.howtoip.com/*
 *://*.hpnews.online/*
+*://*.html.cn/*
 *://*.huahui08.com/*
 *://*.huiyikj.com/*
 *://*.hxkj.net/*
@@ -222,10 +226,12 @@
 *://*.measart.com/*
 *://*.meetthebookworld.com/*
 *://*.megavolt67.ru/*
+*://*.meirikeji.com/*
 *://*.metropaintballgames.com/*
 *://*.mfwf.cn.com/*
 *://*.miaook.com/*
 *://*.mississippifaithinaction.org/*
+*://*.mo08.biz/*
 *://*.mobile2day.com/*
 *://*.modb.pro/*
 *://*.mop.com/*
@@ -368,6 +374,7 @@
 *://*.windowsphoneinfo.com/*
 *://*.wintoog.com.cn/*
 *://*.wjpy55.com/*
+*://*.wordpress.com/*
 *://*.wujigu.com/*
 *://*.wuzhuiso.com/s?q=*
 *://*.wxkcg.com/*
@@ -400,11 +407,13 @@
 *://*.yujiedh.xyz/*
 *://*.yunweipai.com/*
 *://*.yyfensi.com/*
+*://*.za.com/*
 *://*.zakcret.xyz/*
 *://*.zaoyouxi.com/*
 *://*.zditect.com/*
 *://*.zglangying.com/*
 *://*.zgserver.com/*
+*://*.zhizhiguan.com/*
 *://*.zjzmxny.com/*
 *://*.zmmoo.com/*
 *://*.znj.com/*
@@ -474,6 +483,7 @@
 *://bloomingtonventures.com/*
 *://book.jd.com/publish/Search?*
 *://brd2a.com/*
+*://briteming.blogspot.com/*
 *://brrmn.com/*
 *://bug200.com/*
 *://bynss.com/*
@@ -646,6 +656,7 @@
 *://my.oschina.net/u/4394125/*
 *://mygiftlk.com/*
 *://n.znds.com/*
+*://new.qq.com/omn/*
 *://news.66wz.com/*
 *://news.futunn.com/post/*
 *://news.mydrivers.com/*
@@ -654,6 +665,7 @@
 *://news.znds.com/*
 *://ostack.cn/*
 *://overcoder.net/*
+*://pic.sogou.com/pic/searchList.jsp?*
 *://power.baidu.com/*
 *://product.3g.pconline.com.cn/*
 *://product.mxpkw.com/*
