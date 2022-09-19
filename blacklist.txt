@@ -23,6 +23,7 @@
 *://*.4meahc.com/*
 *://*.51xuexiaoyi.com/*
 *://*.521cc.com/*
+*://*.5868685.com/*
 *://*.58hengqi.com/*
 *://*.61655.app/*
 *://*.63458799.com/*
@@ -33,11 +34,14 @@
 *://*.8848hr.com/*
 *://*.91wuxi.com/*
 *://*.97hs.com/*
+*://*.99jiehun.com/*
 *://*.9idudu.com/*
+*://*.a7la-home.com/*
 *://*.aalahty.cn/*
 *://*.actualidadiphone.com/*
 *://*.aesml.com/*
 *://*.aiseesoft.com/*
+*://*.aishuaijiao.com/*
 *://*.aiznh.com/*
 *://*.ajhujiao.com/*
 *://*.alltechbuzz.net/*
@@ -66,14 +70,18 @@
 *://*.biobu.it/*
 *://*.bit86.cn/*
 *://*.blogsbodasdeisabel.com/*
+*://*.bohlsenpr.com/*
+*://*.bollywoods.ru.com/*
 *://*.bookresource.net/*
 *://*.brainandspineschool.com/*
 *://*.budanghuishi.com/*
 *://*.buffalo-mn.org/*
 *://*.bugelun.com/*
+*://*.cache.one/*
 *://*.camlya.com/*
 *://*.casmokefreehousing.org/*
 *://*.ccvic.com/*
+*://*.centroricercainsubria.it/*
 *://*.cetturismo.cl/*
 *://*.chattaboo.com/*
 *://*.chcpd.com/*
@@ -104,6 +112,7 @@
 *://*.dacongyun.com/*
 *://*.dafuhua.com/*
 *://*.daimaqa.com/*
+*://*.daka111.cn/*
 *://*.dapg.cc/*
 *://*.dav01.com/*
 *://*.ddosi.org/*
@@ -114,11 +123,14 @@
 *://*.dtmao.cc/*
 *://*.du-mon.com/*
 *://*.duboot.com/*
+*://*.dyecn.com/*
+*://*.edition-eltern.com/*
 *://*.edoghaitao.com/*
 *://*.eeyyoo.com.cn/*
 *://*.enkj.com/*
 *://*.enmsb.com/*
 *://*.eue5xbp.site/*
+*://*.exotips.com/*
 *://*.fhsas.com/*
 *://*.fofa.so/*
 *://*.fonelab.com/*
@@ -138,10 +150,15 @@
 *://*.gcyfd.shop/*
 *://*.gdsdwan.com/*
 *://*.geren-jianli.org/*
+*://*.gg4ss.com/*
+*://*.gghu.com/*
 *://*.gizchina.it/*
+*://*.gldq123.com/*
 *://*.gome.com.cn/*
 *://*.gov-civil-leiria.pt/*
 *://*.guangdiu.com/*
+*://*.guidecycle.net/*
+*://*.guidlings.com/*
 *://*.guoguofen.com/*
 *://*.haoshangbang.net/*
 *://*.haoxyx.com/*
@@ -176,6 +193,7 @@
 *://*.imaycon.com/*
 *://*.imooc.com/wenda/*
 *://*.ios.im/*
+*://*.iosvm.com/*
 *://*.isdakar.org/*
 *://*.it.net.cn/*
 *://*.itecnote.com/*
@@ -197,6 +215,7 @@
 *://*.jqgcs123.com/*
 *://*.juejin.cn/s/*
 *://*.juzhekooo.com/*
+*://*.jynews.net/*
 *://*.jzhcgm.com/*
 *://*.kafan.cn/*
 *://*.kaimalo.com/*
@@ -210,6 +229,7 @@
 *://*.kutu66.com/*
 *://*.lai18.com/*
 *://*.lehuotuan.com/*
+*://*.leixue.com/*
 *://*.lete.com/kdwenda/*
 *://*.liangliangmama.com/blogs/news/*
 *://*.libhunt.com/*
@@ -234,6 +254,7 @@
 *://*.mo08.biz/*
 *://*.mobile2day.com/*
 *://*.modb.pro/*
+*://*.moe.ms/*
 *://*.mop.com/*
 *://*.mos86.com/*
 *://*.mostexpo.com/*
@@ -248,6 +269,7 @@
 *://*.nmxjp.com/*
 *://*.nordvpnblog.com/*
 *://*.nuomiphp.com/*
+*://*.nyist.net/*
 *://*.ofweek.com/*
 *://*.oomake.com/*
 *://*.ourplay.net/ask/*
@@ -261,6 +283,7 @@
 *://*.pinkypink.org/*
 *://*.piqiuda.com/*
 *://*.pixelprivacy.com/*
+*://*.pn3p.com/*
 *://*.poldomu.pl/*
 *://*.poloniabeaulieu.fr/*
 *://*.pp22.xyz/*
@@ -277,6 +300,7 @@
 *://*.qnid.cc/*
 *://*.qpb2b.com/*
 *://*.qu-qu.net/*
+*://*.qumiaodong.com/*
 *://*.qunkong.com.cn/*
 *://*.qwbkw.com/*
 *://*.repinku.com/*
@@ -307,6 +331,7 @@
 *://*.sohoblink.com/*
 *://*.soinside.com/*
 *://*.sportsoho.com/*
+*://*.squadguide.net/*
 *://*.sqzlsy.cn/*
 *://*.statestpizza.com/*
 *://*.sucaixi.com/*
@@ -321,6 +346,7 @@
 *://*.taishengworld.com/*
 *://*.taobao49.com/*
 *://*.taocms.org/*
+*://*.tbganhuo.com/*
 *://*.tcly6.com/*
 *://*.techdevian.com/*
 *://*.tedabg.com/*
@@ -360,6 +386,7 @@
 *://*.vpn5best.com/*
 *://*.vpnmentor.com/*
 *://*.vsbuys.com/*
+*://*.vvfx.cc/*
 *://*.wallmama.com/*
 *://*.wallzhihu.com/*
 *://*.waymanamechurch.org/*
@@ -370,10 +397,12 @@
 *://*.weivb.com/*
 *://*.wenbf.com/*
 *://*.westack.live/*
+*://*.whoisua.com/*
 *://*.wikicell.org/*
 *://*.windowsphoneinfo.com/*
 *://*.wintoog.com.cn/*
 *://*.wjpy55.com/*
+*://*.woniuwl.com/*
 *://*.wordpress.com/*
 *://*.wujigu.com/*
 *://*.wuzhuiso.com/s?q=*
