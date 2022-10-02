@@ -6,6 +6,7 @@
 *://*.1688.com/*
 *://*.17qq.com/*
 *://*.21food.cn/*
+*://*.2219cc.com/*
 *://*.22352.xyz/*
 *://*.2742olivewood.com/*
 *://*.2maka.com/*
@@ -21,6 +22,7 @@
 *://*.3cwu.com/*
 *://*.4hou.com/posts/*
 *://*.4meahc.com/*
+*://*.51cto.com/topic/*
 *://*.51xuexiaoyi.com/*
 *://*.521cc.com/*
 *://*.5868685.com/*
@@ -56,6 +58,7 @@
 *://*.aqmdjx.com/*
 *://*.artibilim.com/*
 *://*.asklobster.com/*
+*://*.awshao.com/*
 *://*.ayxbwy.com/*
 *://*.b00h.com/*
 *://*.baidu.com/s?word=*
@@ -70,6 +73,7 @@
 *://*.biobu.it/*
 *://*.bit86.cn/*
 *://*.blogsbodasdeisabel.com/*
+*://*.bmw8830.com/*
 *://*.bohlsenpr.com/*
 *://*.bollywoods.ru.com/*
 *://*.bookresource.net/*
@@ -93,6 +97,7 @@
 *://*.clubhouse-club.site/*
 *://*.cmen.cc/*
 *://*.cn.com/*
+*://*.cnfreedomrtveas.ru.com/*
 *://*.cnpython.com/*
 *://*.cnvhair.com/*
 *://*.codebug.vip/*
@@ -156,6 +161,7 @@
 *://*.gldq123.com/*
 *://*.gome.com.cn/*
 *://*.gov-civil-leiria.pt/*
+*://*.greatcappuccino.net/*
 *://*.guangdiu.com/*
 *://*.guidecycle.net/*
 *://*.guidlings.com/*
@@ -194,6 +200,7 @@
 *://*.imooc.com/wenda/*
 *://*.ios.im/*
 *://*.iosvm.com/*
+*://*.iqqoz.com/*
 *://*.isdakar.org/*
 *://*.it.net.cn/*
 *://*.itecnote.com/*
@@ -214,6 +221,7 @@
 *://*.joecomp.com/*
 *://*.jqgcs123.com/*
 *://*.juejin.cn/s/*
+*://*.juhebbs.com/*
 *://*.juzhekooo.com/*
 *://*.jynews.net/*
 *://*.jzhcgm.com/*
@@ -272,6 +280,7 @@
 *://*.nyist.net/*
 *://*.ofweek.com/*
 *://*.oomake.com/*
+*://*.oschina.net/informat/*
 *://*.ourplay.net/ask/*
 *://*.ourplay.net/qazt/*
 *://*.outofmemory.cn/*
@@ -323,6 +332,7 @@
 *://*.sincereschool.com/*
 *://*.sjzjgbj.com/*
 *://*.sjzjyyx.com/*
+*://*.sm-tc.cn/*
 *://*.sm1234.net/*
 *://*.sma.so/*
 *://*.smart-gamma.com/*
@@ -422,6 +432,7 @@
 *://*.xuesw.net/*
 *://*.xujun.org/*
 *://*.xykjsqg.com/*
+*://*.xyttt.com/*
 *://*.xzlbjg.com/*
 *://*.y8freegame.com/*
 *://*.yangmao.info/*
@@ -1295,3 +1306,4 @@ title/.*_点击一次就可以出国/
 title/.*q微同号.*/
 title/.*【一键访问国外网站】/
 title/.*【点击一次就可以出国】/
+title/.*有限公司官网/
