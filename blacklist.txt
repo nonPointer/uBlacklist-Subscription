@@ -8,6 +8,7 @@
 *://*.21food.cn/*
 *://*.2219cc.com/*
 *://*.22352.xyz/*
+*://*.226.195/*
 *://*.2742olivewood.com/*
 *://*.2maka.com/*
 *://*.2qun.net/*
@@ -41,6 +42,7 @@
 *://*.a7la-home.com/*
 *://*.aalahty.cn/*
 *://*.actualidadiphone.com/*
+*://*.aes-chile.cl/*
 *://*.aesml.com/*
 *://*.aiseesoft.com/*
 *://*.aishuaijiao.com/*
@@ -50,10 +52,12 @@
 *://*.altapps.net/*
 *://*.amalur-madretierra.es/*
 *://*.amyspastasauce.com/*
+*://*.anche.cn/*
 *://*.androidcookie.com/*
 *://*.answers.gethuman.com/*
 *://*.appike.com/*
 *://*.appspot.com/*
+*://*.appuals.com/*
 *://*.aptengli.com/*
 *://*.aqmdjx.com/*
 *://*.artibilim.com/*
@@ -110,6 +114,7 @@
 *://*.crackorg.com/*
 *://*.csdn.net/weixin_26722031/article/*
 *://*.csolmy.com/*
+*://*.cspfocus.cn/*
 *://*.cundang.cc/*
 *://*.cxybb.com/*
 *://*.cxywk.com/*
@@ -155,8 +160,10 @@
 *://*.gcyfd.shop/*
 *://*.gdsdwan.com/*
 *://*.geren-jianli.org/*
+*://*.getdroidtips.com/*
 *://*.gg4ss.com/*
 *://*.gghu.com/*
+*://*.ghacks.net/*
 *://*.gizchina.it/*
 *://*.gldq123.com/*
 *://*.gome.com.cn/*
@@ -166,6 +173,7 @@
 *://*.guidecycle.net/*
 *://*.guidlings.com/*
 *://*.guoguofen.com/*
+*://*.hanjifoods.com/*
 *://*.haoshangbang.net/*
 *://*.haoxyx.com/*
 *://*.hbs163.com/*
@@ -200,6 +208,7 @@
 *://*.imooc.com/wenda/*
 *://*.ios.im/*
 *://*.iosvm.com/*
+*://*.iqingyan.cn/*
 *://*.iqqoz.com/*
 *://*.isdakar.org/*
 *://*.it.net.cn/*
@@ -290,6 +299,7 @@
 *://*.pc6.com/infoview/*
 *://*.picclick.co.uk/*
 *://*.pinkypink.org/*
+*://*.pintformation.com/*
 *://*.piqiuda.com/*
 *://*.pixelprivacy.com/*
 *://*.pn3p.com/*
@@ -319,6 +329,7 @@
 *://*.rukomos.ru/*
 *://*.rxadderall.com/*
 *://*.sa123.cc/*
+*://*.saintlad.com/*
 *://*.scpaean.com/*
 *://*.sdxinli.org/*
 *://*.seafastcenter.com/*
@@ -359,6 +370,7 @@
 *://*.tbganhuo.com/*
 *://*.tcly6.com/*
 *://*.techdevian.com/*
+*://*.techonegame.com/*
 *://*.tedabg.com/*
 *://*.theastrologypage.com/*
 *://*.tidewaterschool.org/*
@@ -372,6 +384,7 @@
 *://*.toutiao.com/search?keyword=*
 *://*.toutiao.io/*
 *://*.touyinghome.com/*
+*://*.tpyyes.com/*
 *://*.trload.com/*
 *://*.trophieschester.com/*
 *://*.tspweb.com/*
@@ -409,6 +422,7 @@
 *://*.westack.live/*
 *://*.whoisua.com/*
 *://*.wikicell.org/*
+*://*.windowsdispatch.com/*
 *://*.windowsphoneinfo.com/*
 *://*.wintoog.com.cn/*
 *://*.wjpy55.com/*
@@ -443,9 +457,11 @@
 *://*.ymgjedu.com/*
 *://*.you-android.com/*
 *://*.youduoxi.com/*
+*://*.youeryu.com/*
 *://*.youwuqiong.top/*
 *://*.yujiedh.xyz/*
 *://*.yunweipai.com/*
+*://*.yunyiinvestment.com/*
 *://*.yyfensi.com/*
 *://*.za.com/*
 *://*.zakcret.xyz/*
@@ -1299,6 +1315,7 @@
 /m\.[\w]{5,6}\.[\w]{6,7}\.(?:site|vip).*/
 @*://*.tspweb.com/*
 title/.*Q微同号/
+title/.*\- app下载(手机|可?提现|安卓|android)版.*/
 title/.*\s-\s.*知识网/
 title/.*\s-\s小.*百科网/
 title/.*_一键访问国外网站/
