@@ -112,6 +112,7 @@
 *://*.comparitech.com/*
 *://*.compozi.com/*
 *://*.crackorg.com/*
+*://*.craffts.com/*
 *://*.csdn.net/weixin_26722031/article/*
 *://*.csolmy.com/*
 *://*.cspfocus.cn/*
@@ -127,6 +128,7 @@
 *://*.dav01.com/*
 *://*.ddosi.org/*
 *://*.dedeapps.com/*
+*://*.digidash.in/*
 *://*.dkfp88.cn/*
 *://*.dongchedi.com/tag/*
 *://*.dovov.com/*
@@ -191,6 +193,7 @@
 *://*.hooos.com/*
 *://*.hostphb.com/*
 *://*.howtoip.com/*
+*://*.howtopapa.com/*
 *://*.hpnews.online/*
 *://*.html.cn/*
 *://*.huahui08.com/*
@@ -253,6 +256,7 @@
 *://*.licenseapps.com/*
 *://*.liliang.info/*
 *://*.linuxprobe.com/*
+*://*.liupan.org/*
 *://*.liwu.bi/*
 *://*.liyi1688.com/*
 *://*.loudoun-valley.com/*
@@ -266,6 +270,7 @@
 *://*.meirikeji.com/*
 *://*.metropaintballgames.com/*
 *://*.mfwf.cn.com/*
+*://*.mhaohuo.com/*
 *://*.miaook.com/*
 *://*.mississippifaithinaction.org/*
 *://*.mo08.biz/*
@@ -284,10 +289,12 @@
 *://*.njfpled.com/*
 *://*.njloft.com/*
 *://*.nmxjp.com/*
+*://*.nokibar.com/*
 *://*.nordvpnblog.com/*
 *://*.nuomiphp.com/*
 *://*.nyist.net/*
 *://*.ofweek.com/*
+*://*.onitroad.com/*
 *://*.oomake.com/*
 *://*.oschina.net/informat/*
 *://*.ourplay.net/ask/*
@@ -310,6 +317,7 @@
 *://*.psjgs.com.cn/*
 *://*.py.cn/*
 *://*.pyn9.com/*
+*://*.pythontechworld.com/*
 *://*.qciss.net/*
 *://*.qdcypf.com/*
 *://*.qfjhb.cn/*
@@ -341,6 +349,7 @@
 *://*.shumashidai.com/*
 *://*.shyaki.com/*
 *://*.sincereschool.com/*
+*://*.sirhow.com/*
 *://*.sjzjgbj.com/*
 *://*.sjzjyyx.com/*
 *://*.sm-tc.cn/*
@@ -397,6 +406,7 @@
 *://*.tysp.org/*
 *://*.ujjainyoga.com/*
 *://*.uk.com/*
+*://*.ultimate-communications.com/*
 *://*.unansea.com/*
 *://*.uosohyc.site/*
 *://*.uulucky.com/*
@@ -415,8 +425,10 @@
 *://*.waymanamechurch.org/*
 *://*.wbolt.com/*
 *://*.wdfxw.net/*
+*://*.weblihost.com/*
 *://*.website-problem.info/*
 *://*.websiterating.com/*
+*://*.weibo.com/a/hot/*
 *://*.weivb.com/*
 *://*.wenbf.com/*
 *://*.westack.live/*
@@ -453,6 +465,7 @@
 *://*.yao51.com/*
 *://*.ydbaike.club/*
 *://*.yijiayi88.com/*
+*://*.yinzdian.com/*
 *://*.yisu.com/*
 *://*.ymgjedu.com/*
 *://*.you-android.com/*
