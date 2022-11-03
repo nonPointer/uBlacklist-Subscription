@@ -100,6 +100,7 @@
 *://*.cjkfd.top/*
 *://*.clubhouse-club.site/*
 *://*.cmen.cc/*
+*://*.cmm3d.com/*
 *://*.cn.com/*
 *://*.cnfreedomrtveas.ru.com/*
 *://*.cnpython.com/*
@@ -262,6 +263,9 @@
 *://*.loudoun-valley.com/*
 *://*.lovfp.com/*
 *://*.luocige.com/*
+*://*.macsc.com/*
+*://*.macxf.com/*
+*://*.macz.com/*
 *://*.mango66.com/*
 *://*.mattkaydiary.com/*
 *://*.measart.com/*
@@ -304,9 +308,11 @@
 *://*.panjk.com/*
 *://*.paradacreativa.es/*
 *://*.pc6.com/infoview/*
+*://*.php.cn/*
 *://*.picclick.co.uk/*
 *://*.pinkypink.org/*
 *://*.pintformation.com/*
+*://*.pipecraft.net/*
 *://*.piqiuda.com/*
 *://*.pixelprivacy.com/*
 *://*.pn3p.com/*
@@ -400,6 +406,7 @@
 *://*.ttyshi.com/*
 *://*.tumblr.com/*
 *://*.tumlls.xyz/*
+*://*.tumpik.com/*
 *://*.turnoffthelights.com/*
 *://*.twfeq.com/*
 *://*.txcsjlb.com/*
@@ -422,6 +429,7 @@
 *://*.vvfx.cc/*
 *://*.wallmama.com/*
 *://*.wallzhihu.com/*
+*://*.wangluotizi.com/*
 *://*.waymanamechurch.org/*
 *://*.wbolt.com/*
 *://*.wdfxw.net/*
