@@ -26,6 +26,7 @@
 *://*.51cto.com/topic/*
 *://*.51xuexiaoyi.com/*
 *://*.521cc.com/*
+*://*.52sbl.cn/*
 *://*.5868685.com/*
 *://*.58hengqi.com/*
 *://*.61655.app/*
@@ -169,6 +170,7 @@
 *://*.ghacks.net/*
 *://*.gizchina.it/*
 *://*.gldq123.com/*
+*://*.go-travels.com/*
 *://*.gome.com.cn/*
 *://*.gov-civil-leiria.pt/*
 *://*.greatcappuccino.net/*
@@ -284,6 +286,7 @@
 *://*.mop.com/*
 *://*.mos86.com/*
 *://*.mostexpo.com/*
+*://*.moyens.net/*
 *://*.mozzinovo.club/*
 *://*.msfxt.com/*
 *://*.my-pmu.com/*
@@ -395,6 +398,7 @@
 *://*.tnbta.com/*
 *://*.todohealth.com/*
 *://*.tomzx.com/*
+*://*.tongbu.com/*
 *://*.toutiao.com/search/*
 *://*.toutiao.com/search?keyword=*
 *://*.toutiao.io/*
