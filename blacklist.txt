@@ -134,6 +134,7 @@
 *://*.dkfp88.cn/*
 *://*.dongchedi.com/tag/*
 *://*.dovov.com/*
+*://*.driedpeel.com/*
 *://*.dtmao.cc/*
 *://*.du-mon.com/*
 *://*.duboot.com/*
@@ -195,6 +196,7 @@
 *://*.hongniuxinxi.com/*
 *://*.hooos.com/*
 *://*.hostphb.com/*
+*://*.howtl.com/*
 *://*.howtoip.com/*
 *://*.howtopapa.com/*
 *://*.hpnews.online/*
@@ -242,6 +244,7 @@
 *://*.jzhcgm.com/*
 *://*.kafan.cn/*
 *://*.kaimalo.com/*
+*://*.kbpp.org/*
 *://*.kickscooter.ru/*
 *://*.kissbaidu.com/*
 *://*.kknews.cc/*
@@ -250,6 +253,7 @@
 *://*.ksyzakq.com/*
 *://*.kunyuyuan.com/*
 *://*.kutu66.com/*
+*://*.lacomparacion.com/*
 *://*.lai18.com/*
 *://*.lehuotuan.com/*
 *://*.leixue.com/*
@@ -303,6 +307,7 @@
 *://*.ofweek.com/*
 *://*.onitroad.com/*
 *://*.oomake.com/*
+*://*.opython.com/*
 *://*.oschina.net/informat/*
 *://*.ourplay.net/ask/*
 *://*.ourplay.net/qazt/*
@@ -372,6 +377,7 @@
 *://*.sportsoho.com/*
 *://*.squadguide.net/*
 *://*.sqzlsy.cn/*
+*://*.sshce.com/*
 *://*.statestpizza.com/*
 *://*.sucaixi.com/*
 *://*.superweb999.com/*
@@ -417,6 +423,7 @@
 *://*.tysp.org/*
 *://*.ujjainyoga.com/*
 *://*.uk.com/*
+*://*.ulidc.com/*
 *://*.ultimate-communications.com/*
 *://*.unansea.com/*
 *://*.uosohyc.site/*
@@ -495,6 +502,7 @@
 *://*.zglangying.com/*
 *://*.zgserver.com/*
 *://*.zhizhiguan.com/*
+*://*.zhuji.gd/*
 *://*.zjzmxny.com/*
 *://*.zmmoo.com/*
 *://*.znj.com/*
