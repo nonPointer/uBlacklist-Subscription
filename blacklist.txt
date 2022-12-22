@@ -40,6 +40,7 @@
 *://*.97hs.com/*
 *://*.99jiehun.com/*
 *://*.9idudu.com/*
+*://*.a5vpn.com/*
 *://*.a7la-home.com/*
 *://*.aalahty.cn/*
 *://*.actualidadiphone.com/*
@@ -77,6 +78,7 @@
 *://*.beeeup.com/*
 *://*.biobu.it/*
 *://*.bit86.cn/*
+*://*.bloggersideas.com/*
 *://*.blogsbodasdeisabel.com/*
 *://*.bmw8830.com/*
 *://*.bohlsenpr.com/*
@@ -366,6 +368,7 @@
 *://*.sirhow.com/*
 *://*.sjzjgbj.com/*
 *://*.sjzjyyx.com/*
+*://*.sktfaker.com/*
 *://*.sm-tc.cn/*
 *://*.sm1234.net/*
 *://*.sma.so/*
@@ -429,6 +432,7 @@
 *://*.uosohyc.site/*
 *://*.uulucky.com/*
 *://*.ux6.com/*
+*://*.versus.com/*
 *://*.vimsky.com/*
 *://*.vlexpert.com/*
 *://*.voidcc.com/*
