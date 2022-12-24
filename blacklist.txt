@@ -137,10 +137,12 @@
 *://*.dongchedi.com/tag/*
 *://*.dovov.com/*
 *://*.driedpeel.com/*
+*://*.driversupport.com/*
 *://*.dtmao.cc/*
 *://*.du-mon.com/*
 *://*.duboot.com/*
 *://*.dyecn.com/*
+*://*.edianyun.com/*
 *://*.edition-eltern.com/*
 *://*.edoghaitao.com/*
 *://*.eeyyoo.com.cn/*
@@ -157,6 +159,7 @@
 *://*.framedfm.net/*
 *://*.freax.be/*
 *://*.frederique-davezac.fr/*
+*://*.freecodecamp.org/news/*
 *://*.freejobalerts24.com/*
 *://*.freejournal.info/*
 *://*.fukuyama-okoku.com/*
@@ -397,6 +400,7 @@
 *://*.tbganhuo.com/*
 *://*.tcly6.com/*
 *://*.techdevian.com/*
+*://*.techloris.com/*
 *://*.techonegame.com/*
 *://*.tedabg.com/*
 *://*.theastrologypage.com/*
@@ -457,6 +461,7 @@
 *://*.westack.live/*
 *://*.whoisua.com/*
 *://*.wikicell.org/*
+*://*.windows101tricks.com/*
 *://*.windowsdispatch.com/*
 *://*.windowsphoneinfo.com/*
 *://*.wintoog.com.cn/*
