@@ -46,6 +46,7 @@
 *://*.actualidadiphone.com/*
 *://*.aes-chile.cl/*
 *://*.aesml.com/*
+*://*.aimizn.com/*
 *://*.aiseesoft.com/*
 *://*.aishuaijiao.com/*
 *://*.aiznh.com/*
@@ -53,10 +54,12 @@
 *://*.alltechbuzz.net/*
 *://*.altapps.net/*
 *://*.amalur-madretierra.es/*
+*://*.amerbiz.com/*
 *://*.amyspastasauce.com/*
 *://*.anche.cn/*
 *://*.androidcookie.com/*
 *://*.answers.gethuman.com/*
+*://*.apkyu.com/*
 *://*.appike.com/*
 *://*.appspot.com/*
 *://*.appuals.com/*
@@ -84,6 +87,7 @@
 *://*.bohlsenpr.com/*
 *://*.bollywoods.ru.com/*
 *://*.bookresource.net/*
+*://*.boqii.com/*
 *://*.brainandspineschool.com/*
 *://*.budanghuishi.com/*
 *://*.buffalo-mn.org/*
@@ -108,6 +112,7 @@
 *://*.cnfreedomrtveas.ru.com/*
 *://*.cnpython.com/*
 *://*.cnvhair.com/*
+*://*.cnxiangyan.com/*
 *://*.codebug.vip/*
 *://*.codeday.me/*
 *://*.codeleading.com/*
@@ -125,6 +130,7 @@
 *://*.cxywk.com/*
 *://*.da-quan.net/*
 *://*.dacongyun.com/*
+*://*.dadighost.com/*
 *://*.dafuhua.com/*
 *://*.daimaqa.com/*
 *://*.daka111.cn/*
@@ -132,11 +138,13 @@
 *://*.dav01.com/*
 *://*.ddosi.org/*
 *://*.dedeapps.com/*
+*://*.devicesfaq.com/*
 *://*.digidash.in/*
 *://*.dkfp88.cn/*
 *://*.dongchedi.com/tag/*
 *://*.dovov.com/*
 *://*.driedpeel.com/*
+*://*.drivereasy.com/*
 *://*.driversupport.com/*
 *://*.dtmao.cc/*
 *://*.du-mon.com/*
@@ -150,6 +158,7 @@
 *://*.enmsb.com/*
 *://*.eue5xbp.site/*
 *://*.exotips.com/*
+*://*.express.co.uk/*
 *://*.fhsas.com/*
 *://*.fofa.so/*
 *://*.fonelab.com/*
@@ -165,6 +174,7 @@
 *://*.fukuyama-okoku.com/*
 *://*.fuwuqizhijia.com/*
 *://*.gan-ren.com/*
+*://*.gaojipro.com/*
 *://*.gaoyongboke.com/*
 *://*.gatelodgekinross.com/*
 *://*.gcyfd.shop/*
@@ -187,6 +197,7 @@
 *://*.hanjifoods.com/*
 *://*.haoshangbang.net/*
 *://*.haoxyx.com/*
+*://*.hardreset.info/*
 *://*.hbs163.com/*
 *://*.hellodemos.com/*
 *://*.helloworldkb.com/*
@@ -202,7 +213,9 @@
 *://*.hooos.com/*
 *://*.hostphb.com/*
 *://*.howtl.com/*
+*://*.howtofixwindows.com/*
 *://*.howtoip.com/*
+*://*.howtoisolve.com/*
 *://*.howtopapa.com/*
 *://*.hpnews.online/*
 *://*.html.cn/*
@@ -273,6 +286,7 @@
 *://*.liyi1688.com/*
 *://*.loudoun-valley.com/*
 *://*.lovfp.com/*
+*://*.lsbin.com/*
 *://*.luocige.com/*
 *://*.macsc.com/*
 *://*.macxf.com/*
@@ -307,7 +321,9 @@
 *://*.nmxjp.com/*
 *://*.nokibar.com/*
 *://*.nordvpnblog.com/*
+*://*.notebookcheck-cn.com/*
 *://*.nuomiphp.com/*
+*://*.nuoptima.com/*
 *://*.nyist.net/*
 *://*.ofweek.com/*
 *://*.onitroad.com/*
@@ -320,6 +336,7 @@
 *://*.pai-hang-bang.com/*
 *://*.panjk.com/*
 *://*.paradacreativa.es/*
+*://*.passfab.com/*
 *://*.pc6.com/infoview/*
 *://*.php.cn/*
 *://*.picclick.co.uk/*
@@ -349,6 +366,8 @@
 *://*.qumiaodong.com/*
 *://*.qunkong.com.cn/*
 *://*.qwbkw.com/*
+*://*.redian.news/*
+*://*.remosoftware.com/*
 *://*.repinku.com/*
 *://*.ricardoeleinara.com/*
 *://*.rollingfhr.xyz/*
@@ -357,6 +376,7 @@
 *://*.rxadderall.com/*
 *://*.sa123.cc/*
 *://*.saintlad.com/*
+*://*.sakoba.fr/*
 *://*.scpaean.com/*
 *://*.sdxinli.org/*
 *://*.seafastcenter.com/*
@@ -378,6 +398,7 @@
 *://*.smart-gamma.com/*
 *://*.snowcoal.com/*
 *://*.soft-vn.net/*
+*://*.softwarekeep.com/*
 *://*.sohoblink.com/*
 *://*.soinside.com/*
 *://*.sportsoho.com/*
@@ -403,6 +424,7 @@
 *://*.techloris.com/*
 *://*.techonegame.com/*
 *://*.tedabg.com/*
+*://*.tenorshare.com/*
 *://*.theastrologypage.com/*
 *://*.tidewaterschool.org/*
 *://*.tintsoft.com/*
@@ -427,6 +449,7 @@
 *://*.turnoffthelights.com/*
 *://*.twfeq.com/*
 *://*.txcsjlb.com/*
+*://*.txweb.com/*
 *://*.tysp.org/*
 *://*.ujjainyoga.com/*
 *://*.uk.com/*
@@ -434,6 +457,7 @@
 *://*.ultimate-communications.com/*
 *://*.unansea.com/*
 *://*.uosohyc.site/*
+*://*.urtasker.com/*
 *://*.uulucky.com/*
 *://*.ux6.com/*
 *://*.versus.com/*
@@ -442,6 +466,7 @@
 *://*.voidcc.com/*
 *://*.voidcn.com/*
 *://*.volvootofinans.com/*
+*://*.vouchercodes.co.uk/*
 *://*.vpn5best.com/*
 *://*.vpnmentor.com/*
 *://*.vsbuys.com/*
@@ -461,6 +486,7 @@
 *://*.westack.live/*
 *://*.whoisua.com/*
 *://*.wikicell.org/*
+*://*.win7zhijia.cn/*
 *://*.windows101tricks.com/*
 *://*.windowsdispatch.com/*
 *://*.windowsphoneinfo.com/*
@@ -477,6 +503,7 @@
 *://*.xcx1024.com/*
 *://*.xfto.cc/*
 *://*.xhjjs365.com/*
+*://*.xiaoyuanjiu.com/*
 *://*.xieshesm.tw/*
 *://*.xiyoujiasu666.com/*
 *://*.xj-dd.com/*
@@ -496,6 +523,7 @@
 *://*.yinzdian.com/*
 *://*.yisu.com/*
 *://*.ymgjedu.com/*
+*://*.yodot.com/*
 *://*.you-android.com/*
 *://*.youduoxi.com/*
 *://*.youeryu.com/*
@@ -510,6 +538,7 @@
 *://*.zditect.com/*
 *://*.zglangying.com/*
 *://*.zgserver.com/*
+*://*.zhifure.com/*
 *://*.zhizhiguan.com/*
 *://*.zhuji.gd/*
 *://*.zjzmxny.com/*
@@ -614,6 +643,8 @@
 *://developer.aliyun.com/articlezt/*
 *://digwow.net/*
 *://dingtalk.com/*
+*://discountcode.dailymail.co.uk/*
+*://discountcode.mirror.co.uk/*
 *://dlcswm.com/*
 *://dm004.com/*
 *://down.znds.com/*
@@ -1144,6 +1175,7 @@
 *://www.newton.com.tw/*
 *://www.njqg.net/*
 *://www.njsz99.com/*
+*://www.nme.com/discount-codes/*
 *://www.noobyard.com/*
 *://www.nxhh.net/*
 *://www.offers.com/*
@@ -1356,6 +1388,7 @@
 /^https?\:\/\/.*?\/list\?q=[a-zA-Z%0-9]*$/
 /m\.[\w]{5,6}\.[\w]{6,7}\.(?:site|vip).*/
 @*://*.tspweb.com/*
+https://huifu.wondershare.cn/repair/*
 title/.*Q微同号/
 title/.*\- app下载(手机|可?提现|安卓|android)版.*/
 title/.*\s-\s.*知识网/
