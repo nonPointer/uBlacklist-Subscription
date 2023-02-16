@@ -67,6 +67,7 @@
 *://*.aqmdjx.com/*
 *://*.artibilim.com/*
 *://*.asklobster.com/*
+*://*.assignmenter.com/*
 *://*.awshao.com/*
 *://*.ayxbwy.com/*
 *://*.b00h.com/*
@@ -133,6 +134,7 @@
 *://*.dadighost.com/*
 *://*.dafuhua.com/*
 *://*.daimaqa.com/*
+*://*.daixieessay.com/*
 *://*.daka111.cn/*
 *://*.dapg.cc/*
 *://*.dav01.com/*
@@ -149,7 +151,10 @@
 *://*.dtmao.cc/*
 *://*.du-mon.com/*
 *://*.duboot.com/*
+*://*.duewriting.com/*
+*://*.duotin.com/*
 *://*.dyecn.com/*
+*://*.eastwriting.com/*
 *://*.edianyun.com/*
 *://*.edition-eltern.com/*
 *://*.edoghaitao.com/*
@@ -324,6 +329,7 @@
 *://*.notebookcheck-cn.com/*
 *://*.nuomiphp.com/*
 *://*.nuoptima.com/*
+*://*.nweon.com/*
 *://*.nyist.net/*
 *://*.ofweek.com/*
 *://*.onitroad.com/*
@@ -384,6 +390,8 @@
 *://*.shejiben.com/*
 *://*.shenmedaquan.com/*
 *://*.shluqu.cn/*
+*://*.shoujishu.com/*
+*://*.showmetech.com.br/*
 *://*.shtaxi.com/*
 *://*.shumashidai.com/*
 *://*.shyaki.com/*
@@ -460,6 +468,7 @@
 *://*.urtasker.com/*
 *://*.uulucky.com/*
 *://*.ux6.com/*
+*://*.v2ex.com/amp/*
 *://*.versus.com/*
 *://*.vimsky.com/*
 *://*.vlexpert.com/*
@@ -474,6 +483,7 @@
 *://*.wallmama.com/*
 *://*.wallzhihu.com/*
 *://*.wangluotizi.com/*
+*://*.wanshifu.com/*
 *://*.waymanamechurch.org/*
 *://*.wbolt.com/*
 *://*.wdfxw.net/*
@@ -494,6 +504,7 @@
 *://*.wjpy55.com/*
 *://*.woniuwl.com/*
 *://*.wordpress.com/*
+*://*.workessay.com/*
 *://*.wujigu.com/*
 *://*.wuzhuiso.com/s?q=*
 *://*.wxkcg.com/*
