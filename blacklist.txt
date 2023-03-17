@@ -3,6 +3,7 @@
 *://*.1007171.com/*
 *://*.100ke.cc/*
 *://*.1024sou.com/*
+*://*.10jqka.com.cn/*
 *://*.1688.com/*
 *://*.17qq.com/*
 *://*.21food.cn/*
@@ -144,6 +145,7 @@
 *://*.digidash.in/*
 *://*.dkfp88.cn/*
 *://*.dongchedi.com/tag/*
+*://*.douyin.com/zhuanti/*
 *://*.dovov.com/*
 *://*.driedpeel.com/*
 *://*.drivereasy.com/*
@@ -166,6 +168,7 @@
 *://*.express.co.uk/*
 *://*.fhsas.com/*
 *://*.fofa.so/*
+*://*.fonedog.com/*
 *://*.fonelab.com/*
 *://*.food-week.ru/*
 *://*.fpppw.com/*
@@ -199,6 +202,7 @@
 *://*.guidecycle.net/*
 *://*.guidlings.com/*
 *://*.guoguofen.com/*
+*://*.gzhttp.com/*
 *://*.hanjifoods.com/*
 *://*.haoshangbang.net/*
 *://*.haoxyx.com/*
@@ -366,6 +370,7 @@
 *://*.qiangwaikan.com/*
 *://*.qingdaosailing.com/*
 *://*.qingyunl.com/*
+*://*.qiniu.com/qfans/*
 *://*.qnid.cc/*
 *://*.qpb2b.com/*
 *://*.qu-qu.net/*
@@ -432,6 +437,7 @@
 *://*.techloris.com/*
 *://*.techonegame.com/*
 *://*.tedabg.com/*
+*://*.tenorshare.cn/*
 *://*.tenorshare.com/*
 *://*.theastrologypage.com/*
 *://*.tidewaterschool.org/*
@@ -479,6 +485,7 @@
 *://*.vpn5best.com/*
 *://*.vpnmentor.com/*
 *://*.vsbuys.com/*
+*://*.vsdiffer.com/*
 *://*.vvfx.cc/*
 *://*.wallmama.com/*
 *://*.wallzhihu.com/*
