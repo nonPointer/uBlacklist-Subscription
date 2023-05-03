@@ -25,6 +25,7 @@
 *://*.4hou.com/posts/*
 *://*.4meahc.com/*
 *://*.51cto.com/topic/*
+*://*.51offer.com/*
 *://*.51xuexiaoyi.com/*
 *://*.521cc.com/*
 *://*.52sbl.cn/*
@@ -47,6 +48,7 @@
 *://*.actualidadiphone.com/*
 *://*.aes-chile.cl/*
 *://*.aesml.com/*
+*://*.aifengbei.com/*
 *://*.aimizn.com/*
 *://*.aiseesoft.com/*
 *://*.aishuaijiao.com/*
@@ -394,6 +396,7 @@
 *://*.sefyc.com/*
 *://*.shejiben.com/*
 *://*.shenmedaquan.com/*
+*://*.shihuishuo.com/*
 *://*.shluqu.cn/*
 *://*.shoujishu.com/*
 *://*.showmetech.com.br/*
@@ -480,6 +483,7 @@
 *://*.vlexpert.com/*
 *://*.voidcc.com/*
 *://*.voidcn.com/*
+*://*.volcengine.com/theme/*
 *://*.volvootofinans.com/*
 *://*.vouchercodes.co.uk/*
 *://*.vpn5best.com/*
