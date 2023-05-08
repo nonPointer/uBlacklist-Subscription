@@ -217,6 +217,7 @@
 *://*.hezhisw.com/*
 *://*.hfflvfc.site/*
 *://*.hkk666.com/*
+*://*.hnce.org/*
 *://*.hnfangkeyi.com/*
 *://*.hnfyzx.com/*
 *://*.homedo.com/*
@@ -267,6 +268,7 @@
 *://*.joecomp.com/*
 *://*.jqgcs123.com/*
 *://*.juejin.cn/s/*
+*://*.jugomobile.com/*
 *://*.juhebbs.com/*
 *://*.juzhekooo.com/*
 *://*.jynews.net/*
@@ -398,6 +400,7 @@
 *://*.shenmedaquan.com/*
 *://*.shihuishuo.com/*
 *://*.shluqu.cn/*
+*://*.shopwtn.com/*
 *://*.shoujishu.com/*
 *://*.showmetech.com.br/*
 *://*.shtaxi.com/*
@@ -451,6 +454,7 @@
 *://*.todohealth.com/*
 *://*.tomzx.com/*
 *://*.tongbu.com/*
+*://*.toutiao.com/keyword/*
 *://*.toutiao.com/search/*
 *://*.toutiao.com/search?keyword=*
 *://*.toutiao.io/*
@@ -1410,6 +1414,7 @@
 /^https?\:\/\/.*?\/list\?q=[a-zA-Z%0-9]*$/
 /m\.[\w]{5,6}\.[\w]{6,7}\.(?:site|vip).*/
 @*://*.aws.amazon.com/*
+@*://*.joyk.com/*
 @*://*.tspweb.com/*
 https://huifu.wondershare.cn/repair/*
 title/.*Q微同号/
