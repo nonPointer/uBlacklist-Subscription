@@ -54,6 +54,7 @@
 *://*.aishuaijiao.com/*
 *://*.aiznh.com/*
 *://*.ajhujiao.com/*
+*://*.alibabacloud.com/blog/*
 *://*.alltechbuzz.net/*
 *://*.altapps.net/*
 *://*.amalur-madretierra.es/*
@@ -71,6 +72,7 @@
 *://*.artibilim.com/*
 *://*.asklobster.com/*
 *://*.assignmenter.com/*
+*://*.atsit.in/*
 *://*.awshao.com/*
 *://*.ayxbwy.com/*
 *://*.b00h.com/*
@@ -85,6 +87,7 @@
 *://*.beeeup.com/*
 *://*.biobu.it/*
 *://*.bit86.cn/*
+*://*.bitwarsoft.com/*
 *://*.bloggersideas.com/*
 *://*.blogsbodasdeisabel.com/*
 *://*.bmw8830.com/*
@@ -107,6 +110,7 @@
 *://*.china.cn/*
 *://*.china2uk.com/*
 *://*.chiphell.com/*
+*://*.chiphells.com/*
 *://*.cjavapy.com/*
 *://*.cjkfd.top/*
 *://*.clubhouse-club.site/*
@@ -142,6 +146,7 @@
 *://*.dapg.cc/*
 *://*.dav01.com/*
 *://*.ddosi.org/*
+*://*.debian8.com/*
 *://*.dedeapps.com/*
 *://*.devicesfaq.com/*
 *://*.digidash.in/*
@@ -159,6 +164,7 @@
 *://*.duotin.com/*
 *://*.dyecn.com/*
 *://*.eastwriting.com/*
+*://*.edge66.com/*
 *://*.edianyun.com/*
 *://*.edition-eltern.com/*
 *://*.edoghaitao.com/*
@@ -275,6 +281,7 @@
 *://*.jzhcgm.com/*
 *://*.kafan.cn/*
 *://*.kaimalo.com/*
+*://*.kandaoni.com/*
 *://*.kbpp.org/*
 *://*.kickscooter.ru/*
 *://*.kissbaidu.com/*
@@ -325,6 +332,7 @@
 *://*.moyens.net/*
 *://*.mozzinovo.club/*
 *://*.msfxt.com/*
+*://*.mweda.com/*
 *://*.my-pmu.com/*
 *://*.mymac.info/*
 *://*.nasge.com/*
@@ -339,6 +347,7 @@
 *://*.nuoptima.com/*
 *://*.nweon.com/*
 *://*.nyist.net/*
+*://*.obagua.com/*
 *://*.ofweek.com/*
 *://*.onitroad.com/*
 *://*.oomake.com/*
@@ -375,16 +384,21 @@
 *://*.qingdaosailing.com/*
 *://*.qingyunl.com/*
 *://*.qiniu.com/qfans/*
+*://*.qiuyexitong.com/*
 *://*.qnid.cc/*
 *://*.qpb2b.com/*
 *://*.qu-qu.net/*
 *://*.qumiaodong.com/*
 *://*.qunkong.com.cn/*
 *://*.qwbkw.com/*
+*://*.raysync.cn/*
 *://*.redian.news/*
 *://*.remosoftware.com/*
+*://*.reneelab.com.cn/*
+*://*.reneelab.net/*
 *://*.repinku.com/*
 *://*.ricardoeleinara.com/*
+*://*.rocketdrivers.com/*
 *://*.rollingfhr.xyz/*
 *://*.rtxmail.net/*
 *://*.rukomos.ru/*
@@ -420,6 +434,7 @@
 *://*.softwarekeep.com/*
 *://*.sohoblink.com/*
 *://*.soinside.com/*
+*://*.somode.com/*
 *://*.sportsoho.com/*
 *://*.squadguide.net/*
 *://*.sqzlsy.cn/*
@@ -439,6 +454,7 @@
 *://*.taocms.org/*
 *://*.tbganhuo.com/*
 *://*.tcly6.com/*
+*://*.techbriefly.com/*
 *://*.techdevian.com/*
 *://*.techloris.com/*
 *://*.techonegame.com/*
@@ -446,6 +462,7 @@
 *://*.tenorshare.cn/*
 *://*.tenorshare.com/*
 *://*.theastrologypage.com/*
+*://*.thrivemyway.com/*
 *://*.tidewaterschool.org/*
 *://*.tintsoft.com/*
 *://*.tipsandtricks.tech/*
@@ -653,6 +670,7 @@
 *://cloud.tencent.com/developer/information/*
 *://cn.aliyun.com/*
 *://cn.jptele.com/*
+*://cn.pingcap.com/article/post/*
 *://cn846.com/*
 *://code-examples.net/*
 *://codingdict.com/*
@@ -757,12 +775,14 @@
 *://m.51dongshi.com/*
 *://m.9ji.com/*
 *://m.aliyun.com/*
+*://m.bilibili.com/*
 *://m.ccidnet.com/*
 *://m.copyan.com/*
 *://m.daihema.com/*
 *://m.eoudu.com/*
 *://m.fengli.com/*
 *://m.fofama.com/*
+*://m.freebuf.com/*
 *://m.fy35.com/*
 *://m.hljysbk.com/*
 *://m.iask.sina.com.cn/*
@@ -773,6 +793,7 @@
 *://m.jiasuba.com/*
 *://m.kan186.com/*
 *://m.kjw.cc/*
+*://m.liepin.com/*
 *://m.manyushijia.com/*
 *://m.mmaatthh.com/*
 *://m.pai-hang-bang.com/*
