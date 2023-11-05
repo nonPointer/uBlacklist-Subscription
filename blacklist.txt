@@ -73,6 +73,7 @@
 *://*.asklobster.com/*
 *://*.assignmenter.com/*
 *://*.atsit.in/*
+*://*.atwebpages.com/*
 *://*.awshao.com/*
 *://*.ayxbwy.com/*
 *://*.b00h.com/*
@@ -90,6 +91,7 @@
 *://*.bitwarsoft.com/*
 *://*.bloggersideas.com/*
 *://*.blogsbodasdeisabel.com/*
+*://*.bmhysw.com/*
 *://*.bmw8830.com/*
 *://*.bohlsenpr.com/*
 *://*.bollywoods.ru.com/*
@@ -146,6 +148,7 @@
 *://*.dapg.cc/*
 *://*.dav01.com/*
 *://*.ddosi.org/*
+*://*.dealmoon.co.uk/top/*
 *://*.debian8.com/*
 *://*.dedeapps.com/*
 *://*.devicesfaq.com/*
@@ -174,6 +177,7 @@
 *://*.eue5xbp.site/*
 *://*.exotips.com/*
 *://*.express.co.uk/*
+*://*.extrabux.com/*
 *://*.fhsas.com/*
 *://*.fofa.so/*
 *://*.fonedog.com/*
@@ -202,6 +206,7 @@
 *://*.ghacks.net/*
 *://*.gizchina.it/*
 *://*.gldq123.com/*
+*://*.glxyjqx.com/*
 *://*.go-travels.com/*
 *://*.gome.com.cn/*
 *://*.gov-civil-leiria.pt/*
@@ -256,6 +261,7 @@
 *://*.iqqoz.com/*
 *://*.isdakar.org/*
 *://*.it.net.cn/*
+*://*.itamtech.com/catalogsearch/*
 *://*.itecnote.com/*
 *://*.itranslater.com/*
 *://*.itread01.com/*
@@ -267,6 +273,7 @@
 *://*.jhfgl.com/*
 *://*.jiao-yiqie.info/*
 *://*.jifengba.com/*
+*://*.jiqiren999.com/*
 *://*.jishuwen.com/*
 *://*.jiyimusic.com/*
 *://*.jkzh.net/*
@@ -276,6 +283,7 @@
 *://*.juejin.cn/s/*
 *://*.jugomobile.com/*
 *://*.juhebbs.com/*
+*://*.juyifx.cn/*
 *://*.juzhekooo.com/*
 *://*.jynews.net/*
 *://*.jzhcgm.com/*
@@ -308,6 +316,7 @@
 *://*.lovfp.com/*
 *://*.lsbin.com/*
 *://*.luocige.com/*
+*://*.luyouqi.com/*
 *://*.macsc.com/*
 *://*.macxf.com/*
 *://*.macz.com/*
@@ -499,6 +508,7 @@
 *://*.uulucky.com/*
 *://*.ux6.com/*
 *://*.v2ex.com/amp/*
+*://*.vectormagic.com/*
 *://*.versus.com/*
 *://*.vimsky.com/*
 *://*.vlexpert.com/*
@@ -555,6 +565,7 @@
 *://*.xnntw.com/*
 *://*.xuesw.net/*
 *://*.xujun.org/*
+*://*.xyjqxi.com/*
 *://*.xykjsqg.com/*
 *://*.xyttt.com/*
 *://*.xzlbjg.com/*
@@ -832,6 +843,7 @@
 *://my.oschina.net/u/4394125/*
 *://mygiftlk.com/*
 *://n.znds.com/*
+*://nani.baidu.com/*
 *://new.qq.com/omn/*
 *://news.66wz.com/*
 *://news.futunn.com/post/*
