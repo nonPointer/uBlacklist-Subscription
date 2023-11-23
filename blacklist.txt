@@ -400,6 +400,7 @@
 *://*.qumiaodong.com/*
 *://*.qunkong.com.cn/*
 *://*.qwbkw.com/*
+*://*.qyyd5g.top/*
 *://*.raysync.cn/*
 *://*.redian.news/*
 *://*.remosoftware.com/*
@@ -731,6 +732,7 @@
 *://ggchewl.com/*
 *://giskaa.com/*
 *://github-wiki-see.page/*
+*://github.com/qyyd5g/*
 *://githubmemory.com/*
 *://guolianglaoshi.com/*
 *://hairunwatertr.com/*
