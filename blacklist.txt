@@ -147,6 +147,7 @@
 *://*.dacongyun.com/*
 *://*.dadighost.com/*
 *://*.dafuhua.com/*
+*://*.daimafans.com/*
 *://*.daimaqa.com/*
 *://*.daixieessay.com/*
 *://*.daka111.cn/*
@@ -319,6 +320,7 @@
 *://*.libhunt.com/*
 *://*.licenseapps.com/*
 *://*.liliang.info/*
+*://*.linuxpack.net/*
 *://*.linuxprobe.com/*
 *://*.liupan.org/*
 *://*.liwu.bi/*
@@ -521,6 +523,7 @@
 *://*.tysp.org/*
 *://*.ujjainyoga.com/*
 *://*.uk.com/*
+*://*.ukplanking.com/*
 *://*.ulidc.com/*
 *://*.ultimate-communications.com/*
 *://*.unansea.com/*
@@ -587,6 +590,7 @@
 *://*.xnntw.com/*
 *://*.xuesw.net/*
 *://*.xujun.org/*
+*://*.xunihao.org/*
 *://*.xyjqxi.com/*
 *://*.xykjsqg.com/*
 *://*.xyttt.com/*
