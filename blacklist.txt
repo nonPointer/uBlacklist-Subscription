@@ -475,6 +475,7 @@
 *://*.swimmingcows.com/*
 *://*.sxncw.com/*
 *://*.sync-computers.com/*
+*://*.sysin.org/*
 *://*.systemcity.cn/*
 *://*.szmall.com/*
 *://*.tableta-android.com/*
