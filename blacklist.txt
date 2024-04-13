@@ -1091,6 +1091,7 @@
 *://www.chinavolcan.com/*
 *://www.chinawenwang.com/*
 *://www.cmuswe.com/*
+*://www.cnblogs.com/sysin/*
 *://www.cnqlk.com/*
 *://www.cnshhbs.com/*
 *://www.cocoachina.com/*
