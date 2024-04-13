@@ -30,6 +30,7 @@
 *://*.51xuexiaoyi.com/*
 *://*.521cc.com/*
 *://*.52sbl.cn/*
+*://*.54site.com/*
 *://*.5868685.com/*
 *://*.58hengqi.com/*
 *://*.61655.app/*
@@ -119,6 +120,9 @@
 *://*.chiphells.com/*
 *://*.cjavapy.com/*
 *://*.cjkfd.top/*
+*://*.clashmac.com/*
+*://*.clashnode.xyz/*
+*://*.clashx.pro/*
 *://*.clubhouse-club.site/*
 *://*.cmen.cc/*
 *://*.cmm3d.com/*
@@ -253,6 +257,7 @@
 *://*.hpnews.online/*
 *://*.html.cn/*
 *://*.huahui08.com/*
+*://*.huaweicloud.com/zhishi/*
 *://*.huiyikj.com/*
 *://*.hxkj.net/*
 *://*.hzhaochengji.com/*
@@ -290,6 +295,7 @@
 *://*.jkzh.net/*
 *://*.jnw.cc/*
 *://*.joecomp.com/*
+*://*.jointxperts.com/*
 *://*.joyoshare.com/*
 *://*.jqgcs123.com/*
 *://*.juejin.cn/s/*
@@ -335,6 +341,7 @@
 *://*.macz.com/*
 *://*.mango66.com/*
 *://*.mattkaydiary.com/*
+*://*.mb-intendance.com/*
 *://*.measart.com/*
 *://*.meetthebookworld.com/*
 *://*.mefj.com.cn/*
@@ -440,6 +447,7 @@
 *://*.shejiben.com/*
 *://*.shenmedaquan.com/*
 *://*.shihuishuo.com/*
+*://*.shijiyin.com/*
 *://*.shluqu.cn/*
 *://*.shopwtn.com/*
 *://*.shoujide.com/*
@@ -536,6 +544,7 @@
 *://*.vectormagic.com/*
 *://*.versus.com/*
 *://*.vimsky.com/*
+*://*.visit-kamnik.com/*
 *://*.vlexpert.com/*
 *://*.voidcc.com/*
 *://*.voidcn.com/*
@@ -592,6 +601,7 @@
 *://*.xuesw.net/*
 *://*.xujun.org/*
 *://*.xunihao.org/*
+*://*.xuv.cc/*
 *://*.xyjqxi.com/*
 *://*.xykjsqg.com/*
 *://*.xyttt.com/*
@@ -687,6 +697,7 @@
 *://bjtmmh.com/*
 *://blacksprocket.com/*
 *://blog.csdn.net/holybin/*
+*://blog.csdn.net/netgc/*
 *://blog.csdn.net/weixin_35909238/*
 *://bloomingtonventures.com/*
 *://book.jd.com/publish/Search?*
