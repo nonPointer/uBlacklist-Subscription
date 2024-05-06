@@ -178,6 +178,7 @@
 *://*.duewriting.com/*
 *://*.duotin.com/*
 *://*.dyecn.com/*
+*://*.dz-x.net/*
 *://*.eastwriting.com/*
 *://*.edge66.com/*
 *://*.edianyun.com/*
@@ -186,7 +187,9 @@
 *://*.eeyyoo.com.cn/*
 *://*.enkj.com/*
 *://*.enmsb.com/*
+*://*.eolink.com/*
 *://*.eue5xbp.site/*
+*://*.example-a.com/*
 *://*.exotips.com/*
 *://*.express.co.uk/*
 *://*.extrabux.com/*
@@ -212,6 +215,7 @@
 *://*.gatelodgekinross.com/*
 *://*.gcyfd.shop/*
 *://*.gdsdwan.com/*
+*://*.geekerline.com/*
 *://*.geren-jianli.org/*
 *://*.getdroidtips.com/*
 *://*.gg4ss.com/*
@@ -296,6 +300,7 @@
 *://*.jnw.cc/*
 *://*.joecomp.com/*
 *://*.jointxperts.com/*
+*://*.joyk.com/*
 *://*.joyoshare.com/*
 *://*.jqgcs123.com/*
 *://*.juejin.cn/s/*
@@ -319,6 +324,7 @@
 *://*.kutu66.com/*
 *://*.lacomparacion.com/*
 *://*.lai18.com/*
+*://*.lcydcp.com/*
 *://*.lehuotuan.com/*
 *://*.leixue.com/*
 *://*.lete.com/kdwenda/*
@@ -537,6 +543,7 @@
 *://*.ultimate-communications.com/*
 *://*.unansea.com/*
 *://*.uosohyc.site/*
+*://*.upx8.com/*
 *://*.urtasker.com/*
 *://*.uulucky.com/*
 *://*.ux6.com/*
@@ -572,6 +579,7 @@
 *://*.wenbf.com/*
 *://*.westack.live/*
 *://*.whoisua.com/*
+*://*.widede.com/*
 *://*.wikicell.org/*
 *://*.win7zhijia.cn/*
 *://*.windows101tricks.com/*
