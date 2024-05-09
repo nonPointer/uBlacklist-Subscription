@@ -41,6 +41,7 @@
 *://*.876jy.vip/*
 *://*.8848hr.com/*
 *://*.91wuxi.com/*
+*://*.97444.cn/*
 *://*.97hs.com/*
 *://*.99jiehun.com/*
 *://*.9idudu.com/*
@@ -81,6 +82,7 @@
 *://*.awshao.com/*
 *://*.ayxbwy.com/*
 *://*.b00h.com/*
+*://*.baidu.com/*
 *://*.baidu.com/s?word=*
 *://*.bajiaoyingshi.com/*
 *://*.bangjun168.com/*
@@ -271,6 +273,7 @@
 *://*.ids-water.com/*
 *://*.igiftidea.com/*
 *://*.iizhao.com/*
+*://*.ilovewechat.com/*
 *://*.imacso.com/*
 *://*.imaycon.com/*
 *://*.imooc.com/wenda/*
@@ -451,6 +454,7 @@
 *://*.seafastcenter.com/*
 *://*.sefyc.com/*
 *://*.shejiben.com/*
+*://*.shenlongbbs.com/*
 *://*.shenmedaquan.com/*
 *://*.shihuishuo.com/*
 *://*.shijiyin.com/*
