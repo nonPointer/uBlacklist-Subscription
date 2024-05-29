@@ -168,6 +168,7 @@
 *://*.digidash.in/*
 *://*.dkfp88.cn/*
 *://*.dongchedi.com/tag/*
+*://*.doubao.com/*
 *://*.douyin.com/search/*
 *://*.douyin.com/zhuanti/*
 *://*.dovov.com/*
