@@ -118,7 +118,6 @@
 *://*.chcpd.com/*
 *://*.china.cn/*
 *://*.china2uk.com/*
-*://*.chiphell.com/*
 *://*.chiphells.com/*
 *://*.cjavapy.com/*
 *://*.cjkfd.top/*
