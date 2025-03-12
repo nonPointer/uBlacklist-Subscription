@@ -1,3 +1,4 @@
+*://*.ziyuanlm.com/*
 *://developer.aliyun.com/*
 *://*.hqyman.cn/*
 *://*.021east.com/*
