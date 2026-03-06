@@ -1,5 +1,5 @@
 """
-Remove blacklist entries whose registered domain no longer exists in RDAP.
+Remove blacklist entries whose registered domain is no longer resolvable via DNS.
 
 How it works
 ------------
@@ -13,18 +13,12 @@ For every line we:
 1. Extract the hostname portion (stripping the leading ``*://*.`` or ``*://``
    and the trailing path).
 2. Resolve the *registrable domain* (eTLD+1) via ``tldextract``.
-3. Query ``https://rdap.org/domain/<registrable-domain>`` once per unique
-   registrable domain (with a short sleep between requests to respect rate
-   limits).
-4. The RDAP JSON response is parsed to confirm the result contains a valid
-   domain object (``objectClassName == "domain"``).  Lines whose registrable
-   domain returns HTTP 404 *or* whose response does not contain a valid RDAP
-   domain object are dropped; all other lines (including lines for which the
-   lookup fails for any network reason) are kept so we don't accidentally
-   remove valid entries.
-5. When RDAP returns HTTP 403 (Forbidden), a WHOIS lookup is used as a
-   fallback.  A domain is considered non-existent only when WHOIS also
-   confirms it has no registration data; on any WHOIS error the entry is kept.
+3. Attempt a DNS lookup for each unique registrable domain (with a short sleep
+   between lookups to avoid hammering the resolver).
+4. Lines whose registrable domain raises ``socket.gaierror`` with
+   ``errno.ENOENT`` (or the equivalent NXDOMAIN / name-not-found error) are
+   dropped.  All other lines (including those for which the lookup fails for
+   any other reason) are kept so we don't accidentally remove valid entries.
 
 Usage
 -----
@@ -32,13 +26,13 @@ Usage
 """
 
 import argparse
+import errno
 import re
+import socket
 import sys
 import time
 
-import requests
 import tldextract
-import whois
 
 
 # ---------------------------------------------------------------------------
@@ -62,60 +56,35 @@ def registrable_domain(host: str) -> str | None:
     return None
 
 
-def domain_exists_whois(domain: str, timeout: int = 15) -> bool:
+def domain_is_resolvable(domain: str) -> bool:
     """
-    Return True if *domain* appears to be registered according to WHOIS.
+    Return True if *domain* resolves via DNS, False if it does not exist.
 
-    A domain is considered non-existent only when the WHOIS response contains
-    no ``domain_name`` data.  On any error (network failure, parse error, …)
-    return True so we never accidentally drop an entry we cannot verify.
+    A domain is considered non-existent only when ``socket.getaddrinfo``
+    raises a ``socket.gaierror`` that definitively indicates the name was not
+    found: ``errno.ENOENT`` on some resolvers, ``EAI_NONAME`` (-2, NXDOMAIN)
+    on Linux, or ``WSAHOST_NOT_FOUND`` (11001) on Windows.  Transient errors
+    such as ``EAI_AGAIN`` (-3) are treated conservatively – the entry is kept.
+    On any other error the entry is also kept so we never accidentally drop a
+    valid entry.
     """
     try:
-        result = whois.whois(domain, quiet=True, timeout=timeout)
-        domain_name = result.get("domain_name") if isinstance(result, dict) else getattr(result, "domain_name", None)
-        if domain_name:
-            return True
-        print(f"  [warn] WHOIS found no registration for {domain!r}; treating as not found")
-        return False
-    except Exception as exc:
-        print(f"  [warn] WHOIS error for {domain!r}: {exc}; keeping entry")
+        socket.getaddrinfo(domain, None)
         return True
-
-
-def domain_exists_rdap(domain: str, timeout: int = 15) -> bool:
-    """
-    Return True if *domain* is confirmed to exist by the RDAP response body.
-
-    The RDAP JSON is parsed and the ``objectClassName`` field is checked to
-    ensure the response contains a valid domain object.  HTTP 404 responses
-    and 200 responses that lack a ``"domain"`` object class are treated as
-    non-existent.  On HTTP 403, a WHOIS lookup is used as a fallback.  On any
-    other error (network failure, non-404/403 HTTP error, unparseable JSON, …)
-    return True so we never accidentally drop an entry we cannot verify.
-    """
-    url = f"https://rdap.org/domain/{domain}"
-    try:
-        resp = requests.get(url, timeout=timeout, allow_redirects=True)
-        if resp.status_code == 404:
+    except socket.gaierror as exc:
+        # errno codes that definitively mean "name does not exist"
+        _not_found = {
+            errno.ENOENT,           # some resolvers
+            -2,                     # EAI_NONAME on Linux (NXDOMAIN)
+            11001,                  # WSAHOST_NOT_FOUND on Windows
+        }
+        if exc.args[0] in _not_found:
+            print(f"  [warn] DNS lookup failed for {domain!r}: {exc}; treating as not found")
             return False
-        if resp.status_code == 403:
-            print(f"  [warn] RDAP 403 for {domain!r}; falling back to WHOIS")
-            return domain_exists_whois(domain, timeout=timeout)
-        if resp.status_code == 200:
-            try:
-                data = resp.json()
-            except ValueError:
-                print(f"  [warn] Invalid RDAP JSON for {domain!r}; keeping entry")
-                return True
-            if data.get("objectClassName") == "domain":
-                return True
-            print(f"  [warn] Unexpected RDAP object for {domain!r}; keeping entry")
-            return True
-        # Rate-limit (429) or server errors → keep the entry
-        print(f"  [warn] Unexpected HTTP {resp.status_code} for {domain!r}; keeping entry")
+        print(f"  [warn] DNS lookup error for {domain!r}: {exc}; keeping entry")
         return True
-    except requests.exceptions.RequestException as exc:
-        print(f"  [warn] Network error for {domain!r}: {exc}; keeping entry")
+    except OSError as exc:
+        print(f"  [warn] OS error looking up {domain!r}: {exc}; keeping entry")
         return True
 
 
@@ -143,11 +112,11 @@ def main(blacklist_path: str = "blacklist.txt", delay: float = 1.0) -> int:
 
     print(f"Found {len(domain_lines)} unique registrable domains to check.")
 
-    # Query RDAP for each unique domain
+    # Check DNS resolvability for each unique domain
     expired: set[str] = set()
     for i, domain in enumerate(sorted(domain_lines), start=1):
         print(f"[{i}/{len(domain_lines)}] Checking {domain!r} … ", end="", flush=True)
-        exists = domain_exists_rdap(domain)
+        exists = domain_is_resolvable(domain)
         if exists:
             print("OK")
         else:
@@ -189,7 +158,7 @@ if __name__ == "__main__":
         "--delay",
         type=float,
         default=1.0,
-        help="Seconds to sleep between RDAP requests (default: 1.0)",
+        help="Seconds to sleep between DNS lookups (default: 1.0)",
     )
     args = parser.parse_args()
     sys.exit(main(blacklist_path=args.blacklist, delay=args.delay))
