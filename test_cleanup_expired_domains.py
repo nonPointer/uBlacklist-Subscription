@@ -93,14 +93,44 @@ class TestRegistrableDomain:
 class TestDomainExistsRdap:
     """Tests for the domain_exists_rdap() function with mocked HTTP."""
 
-    def _mock_response(self, status_code: int) -> MagicMock:
+    def _mock_response(self, status_code: int, json_data=None) -> MagicMock:
         resp = MagicMock()
         resp.status_code = status_code
+        if json_data is not None:
+            resp.json.return_value = json_data
+        else:
+            resp.json.side_effect = ValueError("no JSON")
         return resp
 
     @patch("cleanup_expired_domains.requests.get")
-    def test_http_200_returns_true(self, mock_get):
-        mock_get.return_value = self._mock_response(200)
+    def test_rdap_domain_object_returns_true(self, mock_get):
+        """HTTP 200 with a valid RDAP domain object → domain exists."""
+        mock_get.return_value = self._mock_response(
+            200, {"objectClassName": "domain", "ldhName": "example.com"}
+        )
+        assert domain_exists_rdap("example.com") is True
+
+    @patch("cleanup_expired_domains.requests.get")
+    def test_http_200_invalid_json_keeps_entry(self, mock_get):
+        """HTTP 200 but unparseable JSON → keep the entry (conservative)."""
+        resp = MagicMock()
+        resp.status_code = 200
+        resp.json.side_effect = ValueError("bad JSON")
+        mock_get.return_value = resp
+        assert domain_exists_rdap("example.com") is True
+
+    @patch("cleanup_expired_domains.requests.get")
+    def test_http_200_missing_object_class_keeps_entry(self, mock_get):
+        """HTTP 200 with JSON that lacks objectClassName → keep the entry."""
+        mock_get.return_value = self._mock_response(200, {"ldhName": "example.com"})
+        assert domain_exists_rdap("example.com") is True
+
+    @patch("cleanup_expired_domains.requests.get")
+    def test_http_200_non_domain_object_class_keeps_entry(self, mock_get):
+        """HTTP 200 with objectClassName != 'domain' → keep the entry."""
+        mock_get.return_value = self._mock_response(
+            200, {"objectClassName": "entity"}
+        )
         assert domain_exists_rdap("example.com") is True
 
     @patch("cleanup_expired_domains.requests.get")
@@ -135,7 +165,9 @@ class TestDomainExistsRdap:
 
     @patch("cleanup_expired_domains.requests.get")
     def test_correct_url_is_requested(self, mock_get):
-        mock_get.return_value = self._mock_response(200)
+        mock_get.return_value = self._mock_response(
+            200, {"objectClassName": "domain", "ldhName": "taobao.com"}
+        )
         domain_exists_rdap("taobao.com")
         mock_get.assert_called_once_with(
             "https://rdap.org/domain/taobao.com",
@@ -169,11 +201,20 @@ class TestMain:
         return str(p)
 
     def _make_rdap_mock(self, expired_domains: set) -> MagicMock:
-        """Return a mock for requests.get that returns 404 for expired_domains."""
+        """Return a mock for requests.get that returns 404 for expired_domains
+        and a valid RDAP domain object (HTTP 200) for all others."""
         def _get(url, **kwargs):
             resp = MagicMock()
             domain = url.replace("https://rdap.org/domain/", "")
-            resp.status_code = 404 if domain in expired_domains else 200
+            if domain in expired_domains:
+                resp.status_code = 404
+                resp.json.side_effect = ValueError("no JSON on 404")
+            else:
+                resp.status_code = 200
+                resp.json.return_value = {
+                    "objectClassName": "domain",
+                    "ldhName": domain,
+                }
             return resp
         mock = MagicMock(side_effect=_get)
         return mock
