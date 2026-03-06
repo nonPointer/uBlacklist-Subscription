@@ -5,14 +5,14 @@ Run with:
     pytest test_cleanup_expired_domains.py -v
 """
 
+import socket
 import textwrap
 from unittest.mock import MagicMock, patch
 
 import pytest
 
 from cleanup_expired_domains import (
-    domain_exists_rdap,
-    domain_exists_whois,
+    domain_is_resolvable,
     extract_host,
     main,
     registrable_domain,
@@ -88,153 +88,58 @@ class TestRegistrableDomain:
 
 
 # ---------------------------------------------------------------------------
-# domain_exists_rdap  (HTTP responses are mocked)
+# domain_is_resolvable  (socket calls are mocked)
 # ---------------------------------------------------------------------------
 
-class TestDomainExistsRdap:
-    """Tests for the domain_exists_rdap() function with mocked HTTP."""
+class TestDomainIsResolvable:
+    """Tests for the domain_is_resolvable() function with mocked DNS."""
 
-    def _mock_response(self, status_code: int, json_data=None) -> MagicMock:
-        resp = MagicMock()
-        resp.status_code = status_code
-        if json_data is not None:
-            resp.json.return_value = json_data
-        else:
-            resp.json.side_effect = ValueError("no JSON")
-        return resp
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_successful_lookup_returns_true(self, mock_gai):
+        """Successful DNS resolution → domain exists."""
+        mock_gai.return_value = [(socket.AF_INET, socket.SOCK_STREAM, 0, "", ("1.2.3.4", 0))]
+        assert domain_is_resolvable("example.com") is True
 
-    @patch("cleanup_expired_domains.requests.get")
-    def test_rdap_domain_object_returns_true(self, mock_get):
-        """HTTP 200 with a valid RDAP domain object → domain exists."""
-        mock_get.return_value = self._mock_response(
-            200, {"objectClassName": "domain", "ldhName": "example.com"}
-        )
-        assert domain_exists_rdap("example.com") is True
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_nxdomain_linux_returns_false(self, mock_gai):
+        """EAI_NONAME (-2) → domain does not exist."""
+        mock_gai.side_effect = socket.gaierror(-2, "Name or service not known")
+        assert domain_is_resolvable("expired-domain-xyz.com") is False
 
-    @patch("cleanup_expired_domains.requests.get")
-    def test_http_200_invalid_json_keeps_entry(self, mock_get):
-        """HTTP 200 but unparseable JSON → keep the entry (conservative)."""
-        resp = MagicMock()
-        resp.status_code = 200
-        resp.json.side_effect = ValueError("bad JSON")
-        mock_get.return_value = resp
-        assert domain_exists_rdap("example.com") is True
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_enoent_returns_false(self, mock_gai):
+        """errno.ENOENT → domain does not exist."""
+        import errno as errno_mod
+        mock_gai.side_effect = socket.gaierror(errno_mod.ENOENT, "No such file or directory")
+        assert domain_is_resolvable("expired-domain-xyz.com") is False
 
-    @patch("cleanup_expired_domains.requests.get")
-    def test_http_200_missing_object_class_keeps_entry(self, mock_get):
-        """HTTP 200 with JSON that lacks objectClassName → keep the entry."""
-        mock_get.return_value = self._mock_response(200, {"ldhName": "example.com"})
-        assert domain_exists_rdap("example.com") is True
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_windows_not_found_returns_false(self, mock_gai):
+        """WSAHOST_NOT_FOUND (11001) → domain does not exist."""
+        mock_gai.side_effect = socket.gaierror(11001, "No such host is known")
+        assert domain_is_resolvable("expired-domain-xyz.com") is False
 
-    @patch("cleanup_expired_domains.requests.get")
-    def test_http_200_non_domain_object_class_keeps_entry(self, mock_get):
-        """HTTP 200 with objectClassName != 'domain' → keep the entry."""
-        mock_get.return_value = self._mock_response(
-            200, {"objectClassName": "entity"}
-        )
-        assert domain_exists_rdap("example.com") is True
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_eai_again_keeps_entry(self, mock_gai):
+        """EAI_AGAIN (-3, transient failure) → keep the entry conservatively."""
+        mock_gai.side_effect = socket.gaierror(-3, "Temporary failure in name resolution")
+        assert domain_is_resolvable("example.com") is True
 
-    @patch("cleanup_expired_domains.requests.get")
-    def test_http_404_returns_false(self, mock_get):
-        mock_get.return_value = self._mock_response(404)
-        assert domain_exists_rdap("expired-domain-xyz.com") is False
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_other_gaierror_keeps_entry(self, mock_gai):
+        """Any other gaierror → keep the entry."""
+        mock_gai.side_effect = socket.gaierror(-4, "Unknown DNS error")
+        assert domain_is_resolvable("example.com") is True
 
-    @patch("cleanup_expired_domains.requests.get")
-    def test_http_429_keeps_entry(self, mock_get):
-        """Rate-limited response should be treated as 'exists' (keep entry)."""
-        mock_get.return_value = self._mock_response(429)
-        assert domain_exists_rdap("example.com") is True
-
-    @patch("cleanup_expired_domains.requests.get")
-    def test_http_500_keeps_entry(self, mock_get):
-        """Server errors should be treated as 'exists' (keep entry)."""
-        mock_get.return_value = self._mock_response(500)
-        assert domain_exists_rdap("example.com") is True
-
-    @patch("cleanup_expired_domains.requests.get")
-    def test_network_error_keeps_entry(self, mock_get):
-        """Network failures should be treated as 'exists' (keep entry)."""
-        import requests as req_lib
-        mock_get.side_effect = req_lib.exceptions.ConnectionError("unreachable")
-        assert domain_exists_rdap("example.com") is True
-
-    @patch("cleanup_expired_domains.requests.get")
-    def test_timeout_keeps_entry(self, mock_get):
-        import requests as req_lib
-        mock_get.side_effect = req_lib.exceptions.Timeout("timed out")
-        assert domain_exists_rdap("example.com") is True
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_os_error_keeps_entry(self, mock_gai):
+        """Generic OSError → keep the entry."""
+        mock_gai.side_effect = OSError("unexpected OS error")
+        assert domain_is_resolvable("example.com") is True
 
 
 # ---------------------------------------------------------------------------
-# domain_exists_whois  (whois calls are mocked)
-# ---------------------------------------------------------------------------
-
-class TestDomainExistsWhois:
-    """Tests for the domain_exists_whois() function with mocked WHOIS."""
-
-    @patch("cleanup_expired_domains.whois.whois")
-    def test_domain_name_present_returns_true(self, mock_whois):
-        """WHOIS response with domain_name set → domain exists."""
-        mock_whois.return_value = {"domain_name": "EXAMPLE.COM"}
-        assert domain_exists_whois("example.com") is True
-
-    @patch("cleanup_expired_domains.whois.whois")
-    def test_domain_name_list_returns_true(self, mock_whois):
-        """WHOIS response with domain_name as list → domain exists."""
-        mock_whois.return_value = {"domain_name": ["EXAMPLE.COM", "example.com"]}
-        assert domain_exists_whois("example.com") is True
-
-    @patch("cleanup_expired_domains.whois.whois")
-    def test_domain_name_none_returns_false(self, mock_whois):
-        """WHOIS response with domain_name=None → domain not found."""
-        mock_whois.return_value = {"domain_name": None}
-        assert domain_exists_whois("expired-domain-xyz.com") is False
-
-    @patch("cleanup_expired_domains.whois.whois")
-    def test_domain_name_missing_returns_false(self, mock_whois):
-        """WHOIS response with no domain_name key → domain not found."""
-        mock_whois.return_value = {}
-        assert domain_exists_whois("expired-domain-xyz.com") is False
-
-    @patch("cleanup_expired_domains.whois.whois")
-    def test_whois_exception_keeps_entry(self, mock_whois):
-        """Any exception from whois → keep the entry (conservative)."""
-        mock_whois.side_effect = Exception("connection refused")
-        assert domain_exists_whois("example.com") is True
-
-    @patch("cleanup_expired_domains.requests.get")
-    def test_correct_url_is_requested(self, mock_get):
-        mock_get.return_value = self._mock_response(
-            200, {"objectClassName": "domain", "ldhName": "taobao.com"}
-        )
-        domain_exists_rdap("taobao.com")
-        mock_get.assert_called_once_with(
-            "https://rdap.org/domain/taobao.com",
-            timeout=15,
-            allow_redirects=True,
-        )
-
-    @patch("cleanup_expired_domains.domain_exists_whois")
-    @patch("cleanup_expired_domains.requests.get")
-    def test_http_403_falls_back_to_whois_true(self, mock_get, mock_whois):
-        """HTTP 403 from RDAP → fall back to whois; domain found via whois → True."""
-        mock_get.return_value = self._mock_response(403)
-        mock_whois.return_value = True
-        assert domain_exists_rdap("example.com") is True
-        mock_whois.assert_called_once_with("example.com", timeout=15)
-
-    @patch("cleanup_expired_domains.domain_exists_whois")
-    @patch("cleanup_expired_domains.requests.get")
-    def test_http_403_falls_back_to_whois_false(self, mock_get, mock_whois):
-        """HTTP 403 from RDAP → fall back to whois; domain not found via whois → False."""
-        mock_get.return_value = self._mock_response(403)
-        mock_whois.return_value = False
-        assert domain_exists_rdap("expired-domain-xyz.com") is False
-        mock_whois.assert_called_once_with("expired-domain-xyz.com", timeout=15)
-
-
-# ---------------------------------------------------------------------------
-# main()  (end-to-end, using a temp file and mocked RDAP)
+# main()  (end-to-end, using a temp file and mocked DNS)
 # ---------------------------------------------------------------------------
 
 class TestMain:
@@ -248,8 +153,8 @@ class TestMain:
         *://*.another-expired.org/*
         *://*.226.195/*
     """)
-    # taobao.com, eyewated.com, iodraw.com → exist
-    # expireddomain.com, another-expired.org → expired (404)
+    # taobao.com, eyewated.com, iodraw.com → resolvable
+    # expireddomain.com, another-expired.org → not resolvable (NXDOMAIN)
     # 226.195 → no registrable domain, should be kept regardless
 
     def _write_blacklist(self, tmp_path, content: str) -> str:
@@ -257,30 +162,21 @@ class TestMain:
         p.write_text(content, encoding="utf-8")
         return str(p)
 
-    def _make_rdap_mock(self, expired_domains: set) -> MagicMock:
-        """Return a mock for requests.get that returns 404 for expired_domains
-        and a valid RDAP domain object (HTTP 200) for all others."""
-        def _get(url, **kwargs):
-            resp = MagicMock()
-            domain = url.replace("https://rdap.org/domain/", "")
-            if domain in expired_domains:
-                resp.status_code = 404
-                resp.json.side_effect = ValueError("no JSON on 404")
-            else:
-                resp.status_code = 200
-                resp.json.return_value = {
-                    "objectClassName": "domain",
-                    "ldhName": domain,
-                }
-            return resp
-        mock = MagicMock(side_effect=_get)
+    def _make_dns_mock(self, unresolvable_domains: set) -> MagicMock:
+        """Return a mock for socket.getaddrinfo that raises gaierror(-2) for
+        unresolvable_domains and returns a fake result for all others."""
+        def _gai(domain, port, **kwargs):
+            if domain in unresolvable_domains:
+                raise socket.gaierror(-2, "Name or service not known")
+            return [(socket.AF_INET, socket.SOCK_STREAM, 0, "", ("1.2.3.4", 0))]
+        mock = MagicMock(side_effect=_gai)
         return mock
 
     @patch("cleanup_expired_domains.time.sleep")  # skip actual delays
-    @patch("cleanup_expired_domains.requests.get")
-    def test_no_expired_domains_leaves_file_unchanged(self, mock_get, mock_sleep, tmp_path):
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_no_expired_domains_leaves_file_unchanged(self, mock_gai, mock_sleep, tmp_path):
         path = self._write_blacklist(tmp_path, self.BLACKLIST_CONTENT)
-        mock_get.side_effect = self._make_rdap_mock(expired_domains=set()).side_effect
+        mock_gai.side_effect = self._make_dns_mock(unresolvable_domains=set()).side_effect
 
         result = main(blacklist_path=path, delay=0)
 
@@ -289,11 +185,11 @@ class TestMain:
             assert f.read() == self.BLACKLIST_CONTENT
 
     @patch("cleanup_expired_domains.time.sleep")
-    @patch("cleanup_expired_domains.requests.get")
-    def test_expired_domains_are_removed(self, mock_get, mock_sleep, tmp_path):
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_expired_domains_are_removed(self, mock_gai, mock_sleep, tmp_path):
         path = self._write_blacklist(tmp_path, self.BLACKLIST_CONTENT)
-        mock_get.side_effect = self._make_rdap_mock(
-            expired_domains={"expireddomain.com", "another-expired.org"}
+        mock_gai.side_effect = self._make_dns_mock(
+            unresolvable_domains={"expireddomain.com", "another-expired.org"}
         ).side_effect
 
         result = main(blacklist_path=path, delay=0)
@@ -309,11 +205,11 @@ class TestMain:
         assert "*://www.iodraw.com/blog/*\n" in remaining
 
     @patch("cleanup_expired_domains.time.sleep")
-    @patch("cleanup_expired_domains.requests.get")
-    def test_unresolvable_host_lines_are_kept(self, mock_get, mock_sleep, tmp_path):
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_unresolvable_host_lines_are_kept(self, mock_gai, mock_sleep, tmp_path):
         """Lines without a valid registrable domain must never be removed."""
         path = self._write_blacklist(tmp_path, self.BLACKLIST_CONTENT)
-        mock_get.side_effect = self._make_rdap_mock(expired_domains=set()).side_effect
+        mock_gai.side_effect = self._make_dns_mock(unresolvable_domains=set()).side_effect
 
         main(blacklist_path=path, delay=0)
 
@@ -321,8 +217,8 @@ class TestMain:
             assert "*://*.226.195/*\n" in f.read()
 
     @patch("cleanup_expired_domains.time.sleep")
-    @patch("cleanup_expired_domains.requests.get")
-    def test_multiple_lines_same_domain_all_removed(self, mock_get, mock_sleep, tmp_path):
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_multiple_lines_same_domain_all_removed(self, mock_gai, mock_sleep, tmp_path):
         """Multiple entries sharing a domain are all removed together."""
         content = (
             "*://sub1.expireddomain.com/*\n"
@@ -330,8 +226,8 @@ class TestMain:
             "*://www.gooddomain.com/*\n"
         )
         path = self._write_blacklist(tmp_path, content)
-        mock_get.side_effect = self._make_rdap_mock(
-            expired_domains={"expireddomain.com"}
+        mock_gai.side_effect = self._make_dns_mock(
+            unresolvable_domains={"expireddomain.com"}
         ).side_effect
 
         main(blacklist_path=path, delay=0)
@@ -342,13 +238,12 @@ class TestMain:
         assert "*://www.gooddomain.com/*\n" in remaining
 
     @patch("cleanup_expired_domains.time.sleep")
-    @patch("cleanup_expired_domains.requests.get")
-    def test_network_error_keeps_entry(self, mock_get, mock_sleep, tmp_path):
-        """When RDAP is unreachable the entry must be preserved."""
-        import requests as req_lib
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_dns_error_keeps_entry(self, mock_gai, mock_sleep, tmp_path):
+        """When DNS lookup fails with a transient error the entry must be preserved."""
         content = "*://*.example.com/*\n"
         path = self._write_blacklist(tmp_path, content)
-        mock_get.side_effect = req_lib.exceptions.ConnectionError("unreachable")
+        mock_gai.side_effect = socket.gaierror(-3, "Temporary failure in name resolution")
 
         main(blacklist_path=path, delay=0)
 
@@ -356,16 +251,16 @@ class TestMain:
             assert f.read() == content
 
     @patch("cleanup_expired_domains.time.sleep")
-    @patch("cleanup_expired_domains.requests.get")
-    def test_empty_blacklist(self, mock_get, mock_sleep, tmp_path):
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_empty_blacklist(self, mock_gai, mock_sleep, tmp_path):
         path = self._write_blacklist(tmp_path, "")
         result = main(blacklist_path=path, delay=0)
         assert result == 0
-        mock_get.assert_not_called()
+        mock_gai.assert_not_called()
 
     @patch("cleanup_expired_domains.time.sleep")
-    @patch("cleanup_expired_domains.requests.get")
-    def test_delay_is_applied_between_requests(self, mock_get, mock_sleep, tmp_path):
+    @patch("cleanup_expired_domains.socket.getaddrinfo")
+    def test_delay_is_applied_between_requests(self, mock_gai, mock_sleep, tmp_path):
         """time.sleep should be called (n_domains - 1) times."""
         content = (
             "*://www.alpha.com/*\n"
@@ -373,10 +268,11 @@ class TestMain:
             "*://www.gamma.com/*\n"
         )
         path = self._write_blacklist(tmp_path, content)
-        mock_get.side_effect = self._make_rdap_mock(expired_domains=set()).side_effect
+        mock_gai.side_effect = self._make_dns_mock(unresolvable_domains=set()).side_effect
 
         main(blacklist_path=path, delay=0.5)
 
         # 3 domains → sleep called exactly 2 times (between consecutive requests)
         assert mock_sleep.call_count == 2
         mock_sleep.assert_called_with(0.5)
+
