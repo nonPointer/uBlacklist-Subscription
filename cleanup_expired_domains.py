@@ -22,6 +22,9 @@ For every line we:
    domain object are dropped; all other lines (including lines for which the
    lookup fails for any network reason) are kept so we don't accidentally
    remove valid entries.
+5. When RDAP returns HTTP 403 (Forbidden), a WHOIS lookup is used as a
+   fallback.  A domain is considered non-existent only when WHOIS also
+   confirms it has no registration data; on any WHOIS error the entry is kept.
 
 Usage
 -----
@@ -35,6 +38,7 @@ import time
 
 import requests
 import tldextract
+import whois
 
 
 # ---------------------------------------------------------------------------
@@ -58,6 +62,26 @@ def registrable_domain(host: str) -> str | None:
     return None
 
 
+def domain_exists_whois(domain: str, timeout: int = 15) -> bool:
+    """
+    Return True if *domain* appears to be registered according to WHOIS.
+
+    A domain is considered non-existent only when the WHOIS response contains
+    no ``domain_name`` data.  On any error (network failure, parse error, …)
+    return True so we never accidentally drop an entry we cannot verify.
+    """
+    try:
+        result = whois.whois(domain, quiet=True, timeout=timeout)
+        domain_name = result.get("domain_name") if isinstance(result, dict) else getattr(result, "domain_name", None)
+        if domain_name:
+            return True
+        print(f"  [warn] WHOIS found no registration for {domain!r}; treating as not found")
+        return False
+    except Exception as exc:
+        print(f"  [warn] WHOIS error for {domain!r}: {exc}; keeping entry")
+        return True
+
+
 def domain_exists_rdap(domain: str, timeout: int = 15) -> bool:
     """
     Return True if *domain* is confirmed to exist by the RDAP response body.
@@ -65,15 +89,18 @@ def domain_exists_rdap(domain: str, timeout: int = 15) -> bool:
     The RDAP JSON is parsed and the ``objectClassName`` field is checked to
     ensure the response contains a valid domain object.  HTTP 404 responses
     and 200 responses that lack a ``"domain"`` object class are treated as
-    non-existent.  On any other error (network failure, non-404 HTTP error,
-    unparseable JSON, …) return True so we never accidentally drop an entry
-    we cannot verify.
+    non-existent.  On HTTP 403, a WHOIS lookup is used as a fallback.  On any
+    other error (network failure, non-404/403 HTTP error, unparseable JSON, …)
+    return True so we never accidentally drop an entry we cannot verify.
     """
     url = f"https://rdap.org/domain/{domain}"
     try:
         resp = requests.get(url, timeout=timeout, allow_redirects=True)
         if resp.status_code == 404:
             return False
+        if resp.status_code == 403:
+            print(f"  [warn] RDAP 403 for {domain!r}; falling back to WHOIS")
+            return domain_exists_whois(domain, timeout=timeout)
         if resp.status_code == 200:
             try:
                 data = resp.json()

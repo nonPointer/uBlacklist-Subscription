@@ -12,6 +12,7 @@ import pytest
 
 from cleanup_expired_domains import (
     domain_exists_rdap,
+    domain_exists_whois,
     extract_host,
     main,
     registrable_domain,
@@ -163,6 +164,44 @@ class TestDomainExistsRdap:
         mock_get.side_effect = req_lib.exceptions.Timeout("timed out")
         assert domain_exists_rdap("example.com") is True
 
+
+# ---------------------------------------------------------------------------
+# domain_exists_whois  (whois calls are mocked)
+# ---------------------------------------------------------------------------
+
+class TestDomainExistsWhois:
+    """Tests for the domain_exists_whois() function with mocked WHOIS."""
+
+    @patch("cleanup_expired_domains.whois.whois")
+    def test_domain_name_present_returns_true(self, mock_whois):
+        """WHOIS response with domain_name set → domain exists."""
+        mock_whois.return_value = {"domain_name": "EXAMPLE.COM"}
+        assert domain_exists_whois("example.com") is True
+
+    @patch("cleanup_expired_domains.whois.whois")
+    def test_domain_name_list_returns_true(self, mock_whois):
+        """WHOIS response with domain_name as list → domain exists."""
+        mock_whois.return_value = {"domain_name": ["EXAMPLE.COM", "example.com"]}
+        assert domain_exists_whois("example.com") is True
+
+    @patch("cleanup_expired_domains.whois.whois")
+    def test_domain_name_none_returns_false(self, mock_whois):
+        """WHOIS response with domain_name=None → domain not found."""
+        mock_whois.return_value = {"domain_name": None}
+        assert domain_exists_whois("expired-domain-xyz.com") is False
+
+    @patch("cleanup_expired_domains.whois.whois")
+    def test_domain_name_missing_returns_false(self, mock_whois):
+        """WHOIS response with no domain_name key → domain not found."""
+        mock_whois.return_value = {}
+        assert domain_exists_whois("expired-domain-xyz.com") is False
+
+    @patch("cleanup_expired_domains.whois.whois")
+    def test_whois_exception_keeps_entry(self, mock_whois):
+        """Any exception from whois → keep the entry (conservative)."""
+        mock_whois.side_effect = Exception("connection refused")
+        assert domain_exists_whois("example.com") is True
+
     @patch("cleanup_expired_domains.requests.get")
     def test_correct_url_is_requested(self, mock_get):
         mock_get.return_value = self._mock_response(
@@ -174,6 +213,24 @@ class TestDomainExistsRdap:
             timeout=15,
             allow_redirects=True,
         )
+
+    @patch("cleanup_expired_domains.domain_exists_whois")
+    @patch("cleanup_expired_domains.requests.get")
+    def test_http_403_falls_back_to_whois_true(self, mock_get, mock_whois):
+        """HTTP 403 from RDAP → fall back to whois; domain found via whois → True."""
+        mock_get.return_value = self._mock_response(403)
+        mock_whois.return_value = True
+        assert domain_exists_rdap("example.com") is True
+        mock_whois.assert_called_once_with("example.com", timeout=15)
+
+    @patch("cleanup_expired_domains.domain_exists_whois")
+    @patch("cleanup_expired_domains.requests.get")
+    def test_http_403_falls_back_to_whois_false(self, mock_get, mock_whois):
+        """HTTP 403 from RDAP → fall back to whois; domain not found via whois → False."""
+        mock_get.return_value = self._mock_response(403)
+        mock_whois.return_value = False
+        assert domain_exists_rdap("expired-domain-xyz.com") is False
+        mock_whois.assert_called_once_with("expired-domain-xyz.com", timeout=15)
 
 
 # ---------------------------------------------------------------------------
