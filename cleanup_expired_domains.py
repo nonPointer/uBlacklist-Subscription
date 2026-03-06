@@ -16,9 +16,12 @@ For every line we:
 3. Query ``https://rdap.org/domain/<registrable-domain>`` once per unique
    registrable domain (with a short sleep between requests to respect rate
    limits).
-4. Lines whose registrable domain returns HTTP 404 are dropped; all other
-   lines (including lines for which the lookup fails for any network reason)
-   are kept so we don't accidentally remove valid entries.
+4. The RDAP JSON response is parsed to confirm the result contains a valid
+   domain object (``objectClassName == "domain"``).  Lines whose registrable
+   domain returns HTTP 404 *or* whose response does not contain a valid RDAP
+   domain object are dropped; all other lines (including lines for which the
+   lookup fails for any network reason) are kept so we don't accidentally
+   remove valid entries.
 
 Usage
 -----
@@ -57,9 +60,14 @@ def registrable_domain(host: str) -> str | None:
 
 def domain_exists_rdap(domain: str, timeout: int = 15) -> bool:
     """
-    Return True if *domain* is found in RDAP, False if not (HTTP 404).
-    On any other error (network failure, non-404 HTTP error, …) return True
-    so we never accidentally drop an entry we can't verify.
+    Return True if *domain* is confirmed to exist by the RDAP response body.
+
+    The RDAP JSON is parsed and the ``objectClassName`` field is checked to
+    ensure the response contains a valid domain object.  HTTP 404 responses
+    and 200 responses that lack a ``"domain"`` object class are treated as
+    non-existent.  On any other error (network failure, non-404 HTTP error,
+    unparseable JSON, …) return True so we never accidentally drop an entry
+    we cannot verify.
     """
     url = f"https://rdap.org/domain/{domain}"
     try:
@@ -67,6 +75,14 @@ def domain_exists_rdap(domain: str, timeout: int = 15) -> bool:
         if resp.status_code == 404:
             return False
         if resp.status_code == 200:
+            try:
+                data = resp.json()
+            except ValueError:
+                print(f"  [warn] Invalid RDAP JSON for {domain!r}; keeping entry")
+                return True
+            if data.get("objectClassName") == "domain":
+                return True
+            print(f"  [warn] Unexpected RDAP object for {domain!r}; keeping entry")
             return True
         # Rate-limit (429) or server errors → keep the entry
         print(f"  [warn] Unexpected HTTP {resp.status_code} for {domain!r}; keeping entry")
