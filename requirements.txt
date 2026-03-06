@@ -1,0 +1,2 @@
+requests>=2.28.0
+tldextract>=3.4.0
