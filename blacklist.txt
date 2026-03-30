@@ -369,7 +369,6 @@
 *://*.sdxinli.org/*
 *://*.sefyc.com/*
 *://*.shejiben.com/*
-*://*.shenlongbbs.com/*
 *://*.shihuishuo.com/*
 *://*.shijiyin.com/*
 *://*.shluqu.cn/*
@@ -637,7 +636,6 @@
 *://hantenglaw.com/*
 *://herexjabar.over-blog.com/*
 *://hk.uwenku.com/*
-*://hnsqnlhh.com/*
 *://homiemall.com/*
 *://hz-heng-li.com/*
 *://hzhcontrols.com/*
