@@ -362,7 +362,6 @@
 *://*.rollingfhr.xyz/*
 *://*.rtxmail.net/*
 *://*.rukomos.ru/*
-*://*.sa123.cc/*
 *://*.safetydetectives.com/*
 *://*.saintlad.com/*
 *://*.saoyu.com/*
@@ -876,7 +875,6 @@
 *://www.captainbed.net/*
 *://www.carousell.com.hk/*
 *://www.cbedai.net/*
-*://www.ccddzlq.com/*
 *://www.cctsuzhou.cn/*
 *://www.chaoju.com/*
 *://www.chepinnet.com/*
@@ -947,7 +945,6 @@
 *://www.hanlefang.net/*
 *://www.haoecn.com/*
 *://www.harngtong.url.tw/*
-*://www.hcgtx.com/*
 *://www.heibai.org/*
 *://www.hello.so/*
 *://www.helplib.cn/*
@@ -985,7 +982,6 @@
 *://www.kutu66.com/*
 *://www.lagou.com/lgeduarticle/*
 *://www.lansingip.com/*
-*://www.lanzhouyangsheng.com/*
 *://www.lanzhouzaixian.cn/*
 *://www.lightspeedtrucking.com/*
 *://www.linuxboy.net/*
@@ -1082,7 +1078,6 @@
 *://www.sldfc.cn/*
 *://www.smpchome.com/*
 *://www.sociablelabs.com/*
-*://www.sodeog.com/*
 *://www.sohu.com/a/*
 *://www.sojson.com/blog/*
 *://www.suning.com/*
