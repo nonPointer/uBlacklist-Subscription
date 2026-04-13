@@ -112,7 +112,6 @@
 *://*.codenong.com/*
 *://*.codeprj.com/*
 *://*.comparitech.com/*
-*://*.compozi.com/*
 *://*.crackorg.com/*
 *://*.craffts.com/*
 *://*.csdn.net/weixin_26722031/article/*
@@ -284,7 +283,6 @@
 *://*.mango66.com/*
 *://*.mattkaydiary.com/*
 *://*.mb-intendance.com/*
-*://*.meetthebookworld.com/*
 *://*.mefj.com.cn/*
 *://*.meirikeji.com/*
 *://*.metropaintballgames.com/*
@@ -484,7 +482,6 @@
 *://*.woniuwl.com/*
 *://*.wordpress.com/*
 *://*.workessay.com/*
-*://*.wujigu.com/*
 *://*.wuzhuiso.com/s?q=*
 *://*.wxkcg.com/*
 *://*.xa8.net/*
@@ -624,7 +621,6 @@
 *://f5.pm/*
 *://flyzyblog.com/*
 *://flyzyblog.net/*
-*://fyf.wx-wx.net/*
 *://g.penzai.com/*
 *://ggchewl.com/*
 *://giskaa.com/*
@@ -809,7 +805,6 @@
 *://www.360buyserver.com/*
 *://www.360doc.com/*
 *://www.360kuai.com/*
-*://www.365shenbo.com/*
 *://www.39qq.com/*
 *://www.3gsu.com/*
 *://www.3li.cc/*
@@ -851,7 +846,6 @@
 *://www.ancii.com/*
 *://www.anfensi.com/*
 *://www.anhuilife.com/*
-*://www.answerlib.com/*
 *://www.antutu.com/*
 *://www.anxinapk.com/*
 *://www.arhivo.com/*
@@ -951,7 +945,6 @@
 *://www.hisour.com/*
 *://www.histrend.hk/*
 *://www.hotbak.net/*
-*://www.hotessay.net/*
 *://www.hq396.com/*
 *://www.hsjl5821808.com/*
 *://www.hsjtjz.com/*
@@ -1037,10 +1030,8 @@
 *://www.pianshen.com/*
 *://www.ping-jia.net/*
 *://www.pinlue.com/*
-*://www.pnstudy.com/*
 *://www.price.com.hk/*
 *://www.programmersought.com/*
-*://www.ptzxc.com/*
 *://www.q578.com/*
 *://www.qcnsw.com/*
 *://www.qedev.com/*
