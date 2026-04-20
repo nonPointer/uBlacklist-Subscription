@@ -189,7 +189,6 @@
 *://*.guoguofen.com/*
 *://*.gzhttp.com/*
 *://*.hackernews.cc/*
-*://*.hanjifoods.com/*
 *://*.haoshangbang.net/*
 *://*.haoxyx.com/*
 *://*.hardreset.info/*
@@ -269,7 +268,6 @@
 *://*.lete.com/kdwenda/*
 *://*.liangliangmama.com/blogs/news/*
 *://*.libhunt.com/*
-*://*.licenseapps.com/*
 *://*.linuxpack.net/*
 *://*.linuxprobe.com/*
 *://*.liyi1688.com/*
@@ -306,7 +304,6 @@
 *://*.nhm.org/*
 *://*.nmxjp.com/*
 *://*.nokibar.com/*
-*://*.nordvpnblog.com/*
 *://*.notebookcheck-cn.com/*
 *://*.nuomiphp.com/*
 *://*.nuoptima.com/*
@@ -433,7 +430,6 @@
 *://*.tumblr.com/*
 *://*.tumpik.com/*
 *://*.turnoffthelights.com/*
-*://*.twfeq.com/*
 *://*.txweb.com/*
 *://*.tysp.org/*
 *://*.uk.com/*
@@ -799,7 +795,6 @@
 *://www.23cpc.com/*
 *://www.2616.com.cn/*
 *://www.295a.com/*
-*://www.3062.net.cn/*
 *://www.329329.com/*
 *://www.32r.com/*
 *://www.360buyserver.com/*
@@ -842,7 +837,6 @@
 *://www.aliyunyh.com/*
 *://www.amcpp.com/*
 *://www.amhnn.com/*
-*://www.amzkd.cn/*
 *://www.ancii.com/*
 *://www.anfensi.com/*
 *://www.anhuilife.com/*
@@ -1048,7 +1042,6 @@
 *://www.qxqpw.net/*
 *://www.r41z.com/*
 *://www.rejoiceblog.com/*
-*://www.rghn.com.cn/*
 *://www.right.com.cn/FORUM/search.php?*
 *://www.ruan8.com/*
 *://www.ruiwen.com/*
