@@ -68,7 +68,6 @@
 *://*.atwebpages.com/*
 *://*.awshao.com/*
 *://*.ayxbwy.com/*
-*://*.b00h.com/*
 *://*.baidu.com/*
 *://*.baidu.com/s?word=*
 *://*.bangjun168.com/*
