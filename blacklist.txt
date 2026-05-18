@@ -163,7 +163,6 @@
 *://*.freax.be/*
 *://*.freecodecamp.org/news/*
 *://*.freejournal.info/*
-*://*.fukuyama-okoku.com/*
 *://*.fuwuqizhijia.com/*
 *://*.gan-ren.com/*
 *://*.gaojipro.com/*
@@ -284,7 +283,6 @@
 *://*.mfwf.cn.com/*
 *://*.mhaohuo.com/*
 *://*.miaook.com/*
-*://*.mississippifaithinaction.org/*
 *://*.mnxcc.com/*
 *://*.mo08.biz/*
 *://*.mobile2day.com/*
@@ -775,7 +773,6 @@
 *://www.0411ct.com/*
 *://www.0755qxhj.com/*
 *://www.07diy.com/*
-*://www.09vv.cn/*
 *://www.12y.org/*
 *://www.163.com/dy/article/*
 *://www.1984w.com/*
