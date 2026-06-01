@@ -86,11 +86,9 @@
 *://*.buffalo-mn.org/*
 *://*.bugelun.com/*
 *://*.cache.one/*
-*://*.camlya.com/*
 *://*.ccvic.com/*
 *://*.ceyicm.cn/*
 *://*.chattaboo.com/*
-*://*.chcpd.com/*
 *://*.china.cn/*
 *://*.china2uk.com/*
 *://*.cjavapy.com/*
@@ -193,7 +191,6 @@
 *://*.helloworldkb.com/*
 *://*.helplib.com/*
 *://*.heyloadsmmkr.ru.com/*
-*://*.hezhisw.com/*
 *://*.hkk666.com/*
 *://*.hnce.org/*
 *://*.hnfangkeyi.com/*
@@ -244,7 +241,6 @@
 *://*.jqgcs123.com/*
 *://*.juejin.cn/s/*
 *://*.jugomobile.com/*
-*://*.juhebbs.com/*
 *://*.juyifx.cn/*
 *://*.jynews.net/*
 *://*.kafan.cn/*
