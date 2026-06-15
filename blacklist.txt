@@ -67,7 +67,6 @@
 *://*.atsit.in/*
 *://*.atwebpages.com/*
 *://*.awshao.com/*
-*://*.ayxbwy.com/*
 *://*.baidu.com/*
 *://*.baidu.com/s?word=*
 *://*.bangjun168.com/*
@@ -79,7 +78,6 @@
 *://*.bitwarsoft.com/*
 *://*.bloggersideas.com/*
 *://*.bmhysw.com/*
-*://*.bohlsenpr.com/*
 *://*.bollywoods.ru.com/*
 *://*.bookresource.net/*
 *://*.boqii.com/*
@@ -173,7 +171,6 @@
 *://*.gghu.com/*
 *://*.ghacks.net/*
 *://*.gizchina.it/*
-*://*.gldq123.com/*
 *://*.glxyjqx.com/*
 *://*.go-travels.com/*
 *://*.gome.com.cn/*
@@ -299,7 +296,6 @@
 *://*.nuoptima.com/*
 *://*.nweon.com/*
 *://*.nyist.net/*
-*://*.obagua.com/*
 *://*.ofweek.com/*
 *://*.onitroad.com/*
 *://*.oomake.com/*
@@ -1021,7 +1017,6 @@
 *://www.right.com.cn/FORUM/search.php?*
 *://www.ruan8.com/*
 *://www.ruiwen.com/*
-*://www.runsem.com/*
 *://www.ruten.com.tw/*
 *://www.sayweee.com/*
 *://www.sblunwen.com/*
@@ -1050,7 +1045,6 @@
 *://www.taoshudang.com/*
 *://www.tastones.com/*
 *://www.techbang.com/*
-*://www.teipy.com/*
 *://www.thinbug.com/*
 *://www.tiandynasty.cn/*
 *://www.tl80.cn/*
@@ -1082,7 +1076,6 @@
 *://www.wenxuecity.com/*
 *://www.west.cn/docs/*
 *://www.win10xiazai.com/*
-*://www.witdroid.com/*
 *://www.wnt777.com/*
 *://www.wolonge.com/*
 *://www.wordlm.com/*
