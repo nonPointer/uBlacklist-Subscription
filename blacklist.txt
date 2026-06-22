@@ -491,7 +491,6 @@
 *://*.youduoxi.com/*
 *://*.youeryu.com/*
 *://*.youwuqiong.top/*
-*://*.yujiedh.xyz/*
 *://*.yunweipai.com/*
 *://*.yunyiinvestment.com/*
 *://*.yyfensi.com/*
