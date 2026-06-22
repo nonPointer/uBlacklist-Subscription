@@ -1,3 +1,4 @@
+*://ima.qq.com/create/*
 *://goods.taobao.com/*
 *://*.eyewated.com/*
 *://www.8682.cc/*
