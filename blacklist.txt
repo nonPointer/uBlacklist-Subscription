@@ -59,7 +59,6 @@
 *://*.anyviewer.com/*
 *://*.appspot.com/*
 *://*.appuals.com/*
-*://*.aqmdjx.com/*
 *://*.artibilim.com/*
 *://*.asklobster.com/*
 *://*.assignmenter.com/*
@@ -916,7 +915,6 @@
 *://www.loc.pp.ua/*
 *://www.lohine.com/*
 *://www.lunwentop.net/*
-*://www.lvyou5.net/*
 *://www.lxws.net/*
 *://www.lzbxgmjj.com/*
 *://www.macaodaily.com/*
