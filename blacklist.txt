@@ -111,7 +111,6 @@
 *://*.da-quan.net/*
 *://*.dacongyun.com/*
 *://*.dadighost.com/*
-*://*.dafuhua.com/*
 *://*.daimafans.com/*
 *://*.daixieessay.com/*
 *://*.daka111.cn/*
@@ -261,7 +260,6 @@
 *://*.macz.com/*
 *://*.mango66.com/*
 *://*.mattkaydiary.com/*
-*://*.mb-intendance.com/*
 *://*.mefj.com.cn/*
 *://*.meirikeji.com/*
 *://*.metropaintballgames.com/*
@@ -435,7 +433,6 @@
 *://*.websiterating.com/*
 *://*.weibo.com/a/hot/*
 *://*.westack.live/*
-*://*.whoisua.com/*
 *://*.widede.com/*
 *://*.wikicell.org/*
 *://*.win7zhijia.cn/*
@@ -945,7 +942,6 @@
 *://www.padh.net/*
 *://www.paloma.cn/*
 *://www.pantianxia.com/*
-*://www.parichyimin.com/*
 *://www.pck777.com/*
 *://www.pconline.com.cn/3g/*
 *://www.pconline.com.cn/other_pic*
