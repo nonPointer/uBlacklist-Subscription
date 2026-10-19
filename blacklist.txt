@@ -16,9 +16,7 @@
 *://*.21food.cn/*
 *://*.226.195/*
 *://*.2maka.com/*
-*://*.2qun.net/*
 *://*.300m-team.com/*
-*://*.33lc.org/*
 *://*.361shipin.com/*
 *://*.361t.org/*
 *://*.365seal.com/*
@@ -300,7 +298,6 @@
 *://*.picclick.co.uk/*
 *://*.pinkypink.org/*
 *://*.pipecraft.net/*
-*://*.piqiuda.com/*
 *://*.pixelprivacy.com/*
 *://*.py.cn/*
 *://*.pythontechworld.com/*
@@ -741,7 +738,6 @@
 *://www.39qq.com/*
 *://www.3li.cc/*
 *://www.4561234.com/*
-*://www.4pee.com/*
 *://www.511477.com/*
 *://www.513210.com/*
 *://www.51dongshi.com/*
