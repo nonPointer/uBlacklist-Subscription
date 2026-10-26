@@ -426,7 +426,6 @@
 *://*.websiterating.com/*
 *://*.weibo.com/a/hot/*
 *://*.westack.live/*
-*://*.widede.com/*
 *://*.wikicell.org/*
 *://*.win7zhijia.cn/*
 *://*.windows101tricks.com/*
@@ -1026,7 +1025,6 @@
 *://www.xpj665577.com/*
 *://www.xsjphoto.com/*
 *://www.xspdf.com/*
-*://www.xyyhs.net/*
 *://www.xz7.com/*
 *://www.y5.hk/*
 *://www.yinyids.com/*
