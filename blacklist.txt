@@ -296,7 +296,6 @@
 *://*.pc6.com/infoview/*
 *://*.php.cn/*
 *://*.picclick.co.uk/*
-*://*.pinkypink.org/*
 *://*.pipecraft.net/*
 *://*.pixelprivacy.com/*
 *://*.py.cn/*
@@ -333,7 +332,6 @@
 *://*.shijiyin.com/*
 *://*.shluqu.cn/*
 *://*.shopwtn.com/*
-*://*.shoujide.com/*
 *://*.shoujishu.com/*
 *://*.showmetech.com.br/*
 *://*.shtaxi.com/*
@@ -505,7 +503,6 @@
 *://ask.csdn.net/*
 *://ask.seowhy.com/*
 *://ask.zol.com.cn/*
-*://auditioneasterhelm.com/*
 *://baijiahao.baidu.com/*
 *://baike.baidu.com/tashuo/*
 *://bbs.csdn.net/*
@@ -523,7 +520,6 @@
 *://book.jd.com/publish/Search?*
 *://brd2a.com/*
 *://briteming.blogspot.com/*
-*://bynss.com/*
 *://c.lanmit.com/*
 *://call886.com/*
 *://card.weibo.com/*
