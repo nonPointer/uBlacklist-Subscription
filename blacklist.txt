@@ -23,7 +23,6 @@
 *://*.369369.xyz/*
 *://*.3cwu.com/*
 *://*.4hou.com/posts/*
-*://*.4meahc.com/*
 *://*.51cto.com/topic/*
 *://*.51offer.com/*
 *://*.51xuexiaoyi.com/*
@@ -64,7 +63,6 @@
 *://*.baidu.com/*
 *://*.baidu.com/s?word=*
 *://*.bangjun168.com/*
-*://*.barber-klipp.com/*
 *://*.bbjkw.net/*
 *://*.beeeup.com/*
 *://*.bit86.cn/*
@@ -109,7 +107,6 @@
 *://*.dadighost.com/*
 *://*.daimafans.com/*
 *://*.daixieessay.com/*
-*://*.daka111.cn/*
 *://*.dav01.com/*
 *://*.ddosi.org/*
 *://*.dealmoon.co.uk/top/*
@@ -181,7 +178,6 @@
 *://*.hnce.org/*
 *://*.hnfangkeyi.com/*
 *://*.homedo.com/*
-*://*.hongniuxinxi.com/*
 *://*.hooos.com/*
 *://*.hostphb.com/*
 *://*.howtl.com/*
@@ -323,7 +319,6 @@
 *://*.safetydetectives.com/*
 *://*.saintlad.com/*
 *://*.saoyu.com/*
-*://*.sefyc.com/*
 *://*.shejiben.com/*
 *://*.shihuishuo.com/*
 *://*.shijiyin.com/*
@@ -484,7 +479,6 @@
 *://369.bi/*
 *://3g.163.com/*
 *://3g.china.com/*
-*://4000571780.com/*
 *://47.242.32.226/*
 *://821113.com/*
 *://996yx.com/*
@@ -563,7 +557,6 @@
 *://github-wiki-see.page/*
 *://github.com/qyyd5g/*
 *://githubmemory.com/*
-*://hairunwatertr.com/*
 *://hantenglaw.com/*
 *://herexjabar.over-blog.com/*
 *://hk.uwenku.com/*
@@ -893,7 +886,6 @@
 *://www.miaoshoulu.net/*
 *://www.miliol.org/*
 *://www.mintcx.com/*
-*://www.mintwl.com/*
 *://www.mlook.mobi/*
 *://www.mofish.work/*
 *://www.mscto.com/*
@@ -1020,7 +1012,6 @@
 *://www.xz7.com/*
 *://www.y5.hk/*
 *://www.yinyids.com/*
-*://www.yiper.org/*
 *://www.yixinit.com/*
 *://www.yiyisoft.com/*
 *://www.ylfjs.com/*
