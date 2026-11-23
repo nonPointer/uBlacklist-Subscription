@@ -712,7 +712,6 @@
 *://www.21ic.com/*
 *://www.2265.com/*
 *://www.23cpc.com/*
-*://www.2616.com.cn/*
 *://www.295a.com/*
 *://www.329329.com/*
 *://www.32r.com/*
@@ -920,7 +919,6 @@
 *://www.price.com.hk/*
 *://www.programmersought.com/*
 *://www.q578.com/*
-*://www.qcnsw.com/*
 *://www.qedev.com/*
 *://www.qianchusai.com/*
 *://www.qingtingip.com/*
